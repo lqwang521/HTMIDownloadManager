@@ -10,7 +10,8 @@
 		04AF2B9BF5C205FBE45FCE40579A202B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		1F3ABC02DD0B2F7EF950F4415F96D48F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		24C94C5F5FFBDCF30A6A4E8C2F35CE41 /* Pods-HTMIDownloadManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFFB017C21EB832EA2F5249129F0E23 /* Pods-HTMIDownloadManager_Tests-dummy.m */; };
-		2D1061E805ABB5C96410BF446ADA830B /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F35AD5CE20A72BD1E3B74DB42299D43 /* NSString+Hash.m */; };
+		37DFDCF02042A99C00D454CD /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DFDCEE2042A99C00D454CD /* NSString+Hash.m */; };
+		37DFDCF12042A99C00D454CD /* NSString+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 37DFDCEF2042A99C00D454CD /* NSString+Hash.h */; };
 		66BF87657236D5B051715C28FA0B30C6 /* HTMIDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D390A2147B98EA2925E48194EE75D2F /* HTMIDownloadManager.m */; };
 		7883E579719470B13A59F40D847AEAF4 /* HTMIDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2354A76114EF9B4ADD9AFD5F2C8A97 /* HTMIDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		827E21BC33F405C8B3A67DDD8FE8C04F /* Pods-HTMIDownloadManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 685ED126381F2B437D69DAC1F2681740 /* Pods-HTMIDownloadManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,7 +20,6 @@
 		A384D61E3DDD3B174B839B989B889BC6 /* Pods-HTMIDownloadManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F8DC6C00992102157E01783FC777307 /* Pods-HTMIDownloadManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7F111C03E29915E57C4E212FCBB7DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D1B6BD8C1DEBE908F5644CE127996835 /* Pods-HTMIDownloadManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C5486E22FBDE2E1505C48ADD7F96CA /* Pods-HTMIDownloadManager_Example-dummy.m */; };
-		D37F6F2EFD4331F7B37AB35BEC00742F /* NSString+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BEB32064997B77F633ED7061BF4DFB /* NSString+Hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D916ABFD03B2A83CA96C6F022A8D2AF9 /* HTMIDownloadSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E5EF2618FEC8BAFE6AF23DEC71E079F2 /* HTMIDownloadSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBC3A032A2AD1B72B25BE3DEB5421056 /* HTMIDownloadManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A904113E813576C504D3C6E3A7C0B3 /* HTMIDownloadManager-dummy.m */; };
 /* End PBXBuildFile section */
@@ -35,19 +35,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01BEB32064997B77F633ED7061BF4DFB /* NSString+Hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
-		0F35AD5CE20A72BD1E3B74DB42299D43 /* NSString+Hash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
 		18A904113E813576C504D3C6E3A7C0B3 /* HTMIDownloadManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTMIDownloadManager-dummy.m"; sourceTree = "<group>"; };
 		2197B6D8796AA07D74AEFEC37B2EB69B /* Pods-HTMIDownloadManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTMIDownloadManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2D390A2147B98EA2925E48194EE75D2F /* HTMIDownloadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMIDownloadManager.m; path = HTMIDownloadManager/Classes/HTMIDownloadManager.m; sourceTree = "<group>"; };
+		37DFDCEE2042A99C00D454CD /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Hash.m"; path = "HTMIDownloadManager/Classes/NSString+Hash.m"; sourceTree = "<group>"; };
+		37DFDCEF2042A99C00D454CD /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Hash.h"; path = "HTMIDownloadManager/Classes/NSString+Hash.h"; sourceTree = "<group>"; };
 		3E6170124D331A7A9B3362E7BF0043FF /* Pods-HTMIDownloadManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTMIDownloadManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3EE5CEA72C2AC7B2283CD75F308B7624 /* Pods-HTMIDownloadManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTMIDownloadManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4F8DC6C00992102157E01783FC777307 /* Pods-HTMIDownloadManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTMIDownloadManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		598BE48916CCB6B03F2FF7CFCF276388 /* Pods-HTMIDownloadManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTMIDownloadManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5B33BE0DE8D03991F82E19000852CDD8 /* Pods_HTMIDownloadManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HTMIDownloadManager_Example.framework; path = "Pods-HTMIDownloadManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B33BE0DE8D03991F82E19000852CDD8 /* Pods_HTMIDownloadManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTMIDownloadManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2354A76114EF9B4ADD9AFD5F2C8A97 /* HTMIDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMIDownloadManager.h; path = HTMIDownloadManager/Classes/HTMIDownloadManager.h; sourceTree = "<group>"; };
 		5DF61A14711D22822C937C4D84E5A200 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FB5BE35EDBD0E085CB38729C473D1C6 /* Pods-HTMIDownloadManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HTMIDownloadManager_Tests.modulemap"; sourceTree = "<group>"; };
+		5FB5BE35EDBD0E085CB38729C473D1C6 /* Pods-HTMIDownloadManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HTMIDownloadManager_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		685ED126381F2B437D69DAC1F2681740 /* Pods-HTMIDownloadManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTMIDownloadManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		6A90BCFADBFE250747973DC452F4F444 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,17 +55,17 @@
 		6B110116A513D41CB598DD6ED3ED8ECA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C4538E8E793CA14B524ADE5B2CB35BE /* Pods-HTMIDownloadManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMIDownloadManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6FBE89B620A9DBCB4092AC821880D679 /* Pods-HTMIDownloadManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTMIDownloadManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7A7D486B4CB2E4037153A5847F45EAA0 /* Pods-HTMIDownloadManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HTMIDownloadManager_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97CC65155418E999A6C88F4DB5DE9978 /* HTMIDownloadManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HTMIDownloadManager.modulemap; sourceTree = "<group>"; };
-		9BEFAB1EB427680465CA0FB53E0667C6 /* Pods_HTMIDownloadManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HTMIDownloadManager_Tests.framework; path = "Pods-HTMIDownloadManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7D486B4CB2E4037153A5847F45EAA0 /* Pods-HTMIDownloadManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HTMIDownloadManager_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97CC65155418E999A6C88F4DB5DE9978 /* HTMIDownloadManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HTMIDownloadManager.modulemap; sourceTree = "<group>"; };
+		9BEFAB1EB427680465CA0FB53E0667C6 /* Pods_HTMIDownloadManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTMIDownloadManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3969FE5FB66BB4B77E31F5DC2B4C7E /* Pods-HTMIDownloadManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMIDownloadManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD241C0A20402C1FEF03329C3FCD4D68 /* HTMIDownloadManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMIDownloadManager-umbrella.h"; sourceTree = "<group>"; };
 		B6C5486E22FBDE2E1505C48ADD7F96CA /* Pods-HTMIDownloadManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTMIDownloadManager_Example-dummy.m"; sourceTree = "<group>"; };
 		BBFFB017C21EB832EA2F5249129F0E23 /* Pods-HTMIDownloadManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTMIDownloadManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		D4C52A32ABA7DD790178603EEB7E2292 /* HTMIDownloadSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMIDownloadSessionManager.m; path = HTMIDownloadManager/Classes/HTMIDownloadSessionManager.m; sourceTree = "<group>"; };
 		D66DA309F39ED7E04DD6CD0F26478420 /* HTMIDownloadManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMIDownloadManager-prefix.pch"; sourceTree = "<group>"; };
-		D68380ACDA525F2129A2C8515AF3A3BF /* HTMIDownloadManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTMIDownloadManager.framework; path = HTMIDownloadManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68380ACDA525F2129A2C8515AF3A3BF /* HTMIDownloadManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTMIDownloadManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD293394B41BD75D2926C92293635D21 /* HTMIDownloadManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTMIDownloadManager.xcconfig; sourceTree = "<group>"; };
 		E5EF2618FEC8BAFE6AF23DEC71E079F2 /* HTMIDownloadSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMIDownloadSessionManager.h; path = HTMIDownloadManager/Classes/HTMIDownloadSessionManager.h; sourceTree = "<group>"; };
 		E67D863115161F5CC012D5384D7D20CA /* Pods-HTMIDownloadManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMIDownloadManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -178,21 +178,12 @@
 				2D390A2147B98EA2925E48194EE75D2F /* HTMIDownloadManager.m */,
 				E5EF2618FEC8BAFE6AF23DEC71E079F2 /* HTMIDownloadSessionManager.h */,
 				D4C52A32ABA7DD790178603EEB7E2292 /* HTMIDownloadSessionManager.m */,
-				BAA53E1519E22B255582EC70B7FC200C /* MD5 */,
+				37DFDCEF2042A99C00D454CD /* NSString+Hash.h */,
+				37DFDCEE2042A99C00D454CD /* NSString+Hash.m */,
 				3C87CAC69B270220B6605F2165E05B05 /* Support Files */,
 			);
 			name = HTMIDownloadManager;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		BAA53E1519E22B255582EC70B7FC200C /* MD5 */ = {
-			isa = PBXGroup;
-			children = (
-				01BEB32064997B77F633ED7061BF4DFB /* NSString+Hash.h */,
-				0F35AD5CE20A72BD1E3B74DB42299D43 /* NSString+Hash.m */,
-			);
-			name = MD5;
-			path = HTMIDownloadManager/Classes/MD5;
 			sourceTree = "<group>";
 		};
 		BB0147BF8B550F5BFCBBCCB2EEE64CB4 /* Targets Support Files */ = {
@@ -248,7 +239,7 @@
 				96B4C6AD3B4455355862CD8079627720 /* HTMIDownloadManager-umbrella.h in Headers */,
 				7883E579719470B13A59F40D847AEAF4 /* HTMIDownloadManager.h in Headers */,
 				D916ABFD03B2A83CA96C6F022A8D2AF9 /* HTMIDownloadSessionManager.h in Headers */,
-				D37F6F2EFD4331F7B37AB35BEC00742F /* NSString+Hash.h in Headers */,
+				37DFDCF12042A99C00D454CD /* NSString+Hash.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +350,7 @@
 				FBC3A032A2AD1B72B25BE3DEB5421056 /* HTMIDownloadManager-dummy.m in Sources */,
 				66BF87657236D5B051715C28FA0B30C6 /* HTMIDownloadManager.m in Sources */,
 				8770095606A31DE43BC1717DCBF8D43B /* HTMIDownloadSessionManager.m in Sources */,
-				2D1061E805ABB5C96410BF446ADA830B /* NSString+Hash.m in Sources */,
+				37DFDCF02042A99C00D454CD /* NSString+Hash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
