@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HTMIDownloadManager_Example' do
+  pod 'HTMIDownloadManager', :path => '../'
+
+  target 'HTMIDownloadManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

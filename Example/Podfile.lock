@@ -1,0 +1,16 @@
+PODS:
+  - HTMIDownloadManager (0.1.0)
+
+DEPENDENCIES:
+  - HTMIDownloadManager (from `../`)
+
+EXTERNAL SOURCES:
+  HTMIDownloadManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HTMIDownloadManager: f9a23b4659128ed0152e5f46c46ba8d6fb2fbbad
+
+PODFILE CHECKSUM: e6f1fd379cb0db6ab2764a132a976d6d7bbb7ac4
+
+COCOAPODS: 1.4.0.beta.2

@@ -1,0 +1,6 @@
+framework module Pods_HTMIDownloadManager_Tests {
+  umbrella header "Pods-HTMIDownloadManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
