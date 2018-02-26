@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^DownloadProgressBlock)(CGFloat progress, CGFloat totalMBRead, CGFloat totalMBExpectedToRead);
+typedef void(^DownloadSuccessBlock)(id operation, id responseObject);
+typedef void(^DownloadFailureBlock)(id operation, NSError *error);
+
+
 @interface HTMIDownloadManager : NSObject
 
 + (instancetype)sharedManager;
@@ -43,5 +48,41 @@
  *  取消所有下载任务,取消以后必须重新设置任务
  */
 - (void)cancelAllTasks;
+
+/**
+ *  开始下载文件
+ *
+ *  @param URLString     文件链接
+ *  @param path          本地路径 (已做处理，传个 `xx.xxx` 即可，如 `demo.mp3`)
+ *  @param progressBlock 进度回调
+ *  @param successBlock  成功回调
+ *  @param failureBlock  失败回调
+ *
+ *  @return 下载任务
+ */
++ (id)downloadFileWithURLString:(NSString *)URLString
+                      cachePath:(NSString *)cachePath
+                       progress:(DownloadProgressBlock)progressBlock
+                        success:(DownloadSuccessBlock)successBlock
+                        failure:(DownloadFailureBlock)failureBlock;
+
+/**
+ *  开始下载文件
+ *
+ *  @param URLString     文件链接
+ *  @param path          本地路径 (已做处理，传个 `xx.xxx` 即可，如 `demo.mp3`)
+ *  @param headers          functionCode
+ *  @param progressBlock 进度回调
+ *  @param successBlock  成功回调
+ *  @param failureBlock  失败回调
+ *
+ *  @return 下载任务
+ */
++ (id)downloadFileWithURLString:(NSString *)URLString
+                      cachePath:(NSString *)cachePath
+                        headers:(NSDictionary *)headers
+                       progress:(DownloadProgressBlock)progressBlock
+                        success:(DownloadSuccessBlock)successBlock
+                        failure:(DownloadFailureBlock)failureBloc;
 
 @end
