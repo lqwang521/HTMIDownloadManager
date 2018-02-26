@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0920"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8241E85758D2E28CA5C390B64A067CD0"
+               BlueprintIdentifier = "7AD3E02900B2822AC3A641A7763FADDA"
                BuildableName = "Pods_HTMIDownloadManager_Example.framework"
                BlueprintName = "Pods-HTMIDownloadManager_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8241E85758D2E28CA5C390B64A067CD0"
+            BlueprintIdentifier = "7AD3E02900B2822AC3A641A7763FADDA"
             BuildableName = "Pods_HTMIDownloadManager_Example.framework"
             BlueprintName = "Pods-HTMIDownloadManager_Example"
             ReferencedContainer = "container:Pods.xcodeproj">

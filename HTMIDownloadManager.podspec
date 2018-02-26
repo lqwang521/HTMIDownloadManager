@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: my download.
                        DESC
 
   s.homepage         = 'https://github.com/lqwang521/HTMIDownloadManager'
@@ -42,8 +42,8 @@ TODO: Add long description of the pod here.
 
   s.subspec 'MD5' do |ss|
   ss.ios.deployment_target = '8.0'
-  ss.source_files = 'HTMIDownloadManager/NSString+Hash.{h,m}'
-  ss.public_header_files = 'HTMIDownloadManager/NSString+Hash.h'
+  ss.source_files = 'HTMIDownloadManager/Classes/NSString+Hash.{h,m}'
+  ss.public_header_files = 'HTMIDownloadManager/Classes/NSString+Hash.h'
 
   ss.frameworks = 'UIKit'
   end

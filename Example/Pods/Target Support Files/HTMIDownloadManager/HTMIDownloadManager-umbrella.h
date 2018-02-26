@@ -13,6 +13,7 @@
 #import "HTMIDownloadManager.h"
 #import "HTMIDownloadSessionManager.h"
 #import "NSString+Hash.h"
+#import "NSString+Hash.h"
 
 FOUNDATION_EXPORT double HTMIDownloadManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char HTMIDownloadManagerVersionString[];
