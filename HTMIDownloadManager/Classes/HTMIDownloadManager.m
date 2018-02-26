@@ -92,7 +92,11 @@
     return [[self alloc] fileSizeForPath:path];
 }
 
-+ (id)downloadFileWithURLString:(NSString *)URLString cachePath:(NSString *)cachePath progress:(DownloadProgressBlock)progressBlock success:(DownloadSuccessBlock)successBlock failure:(DownloadFailureBlock)failureBlock {
++ (id)downloadFileWithURLString:(NSString *)URLString
+                      cachePath:(NSString *)cachePath
+                       progress:(DownloadProgressBlock)progressBlock
+                        success:(DownloadSuccessBlock)successBlock
+                        failure:(DownloadFailureBlock)failureBlock {
     
     return [[self alloc] downloadFileWithURLString:URLString
                                          cachePath:cachePath
@@ -104,7 +108,9 @@
 + (id)downloadFileWithURLString:(NSString *)URLString
                       cachePath:(NSString *)cachePath
                         headers:(NSDictionary *)headers
-                       progress:(DownloadProgressBlock)progressBlock success:(DownloadSuccessBlock)successBlock failure:(DownloadFailureBlock)failureBlock {
+                       progress:(DownloadProgressBlock)progressBlock
+                        success:(DownloadSuccessBlock)successBlock
+                        failure:(DownloadFailureBlock)failureBlock {
     
     return [[self alloc] downloadFileWithURLString:URLString
                                          cachePath:cachePath
@@ -142,12 +148,16 @@
 
 - (id)downloadFileWithURLString:(NSString *)URLString
                       cachePath:(NSString *)cachePath
-                       progress:(DownloadProgressBlock)progressBlock success:(DownloadSuccessBlock)successBlock failure:(DownloadFailureBlock)failureBlock {
+                       progress:(DownloadProgressBlock)progressBlock
+                        success:(DownloadSuccessBlock)successBlock
+                        failure:(DownloadFailureBlock)failureBlock {
     
     return [self downloadFileWithURLString:URLString
                                  cachePath:cachePath
                                    headers:nil
-                                  progress:progressBlock success:successBlock failure:failureBlock];
+                                  progress:progressBlock
+                                   success:successBlock
+                                   failure:failureBlock];
 }
 
 - (void)pauseWithOperation:(id)operation {
@@ -159,7 +169,9 @@
 - (id)downloadFileWithURLString:(NSString *)URLString
                       cachePath:(NSString *)cachePath
                         headers:(NSDictionary *)headers
-                       progress:(DownloadProgressBlock)progressBlock success:(DownloadSuccessBlock)successBlock failure:(DownloadFailureBlock)failureBlock {
+                       progress:(DownloadProgressBlock)progressBlock
+                        success:(DownloadSuccessBlock)successBlock
+                        failure:(DownloadFailureBlock)failureBlock {
     
     NSString * dirString =  [cachePath stringByDeletingLastPathComponent];
     BOOL isDir = NO;
