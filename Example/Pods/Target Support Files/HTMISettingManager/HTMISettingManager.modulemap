@@ -1,0 +1,6 @@
+framework module HTMISettingManager {
+  umbrella header "HTMISettingManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

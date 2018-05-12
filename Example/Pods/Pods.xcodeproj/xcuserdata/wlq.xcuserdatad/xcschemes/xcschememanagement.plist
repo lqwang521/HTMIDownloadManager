@@ -14,12 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-HTMIDownloadManager_Example.xcscheme</key>
+		<key>HTMINetWork.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-HTMIDownloadManager_Tests.xcscheme</key>
+		<key>HTMISettingManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HTMIDownloadManager_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

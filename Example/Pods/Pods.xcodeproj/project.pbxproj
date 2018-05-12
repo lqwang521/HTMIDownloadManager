@@ -7,178 +7,317 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 996D38C17E48CD16703CD9A31F9F6EC7 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0269646D65DFA341953B3A49108746B6 /* NSString+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 21FB52917D6BADAF2690FE0433E61366 /* NSString+Hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B775F2CB1A9FB265DAF8C6F05776A69E /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1257BE0700EBC61CB5DA73B0F98986EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D845BA077FC0B7DF61F37B225F4303E0 /* Foundation.framework */; };
-		140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0C171634A123A0E7FC39F44FA05D2 /* UIActivityIndicatorView+AFNetworking.m */; };
-		1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E363399C8F7BCAD4FC7BD1CDBF97CD10 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F7832B205CB5A7B9978C502002B4276 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F2D51A2A38586F4AD81C1698DCE237 /* NSString+Hash.m */; };
-		24433C731FCE2A26397463E348E617AB /* HTMIDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9A2F3CA0F9CEE9059BCC6467A6D2F /* HTMIDownloadManager.m */; };
-		24C94C5F5FFBDCF30A6A4E8C2F35CE41 /* Pods-HTMIDownloadManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFFB017C21EB832EA2F5249129F0E23 /* Pods-HTMIDownloadManager_Tests-dummy.m */; };
-		29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B66C0AEBC9F9724A670DCF79BE4531 /* AFURLRequestSerialization.m */; };
-		2A41DD9150F4CBEB96B84FE660871753 /* HTMIDownloadSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B1892A6991F3D847C31FDA8D76315525 /* HTMIDownloadSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A39107EEA293C692022DBFA34617CFB0 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30F0BAE1DBB79BBB6CBD957EA8B89E4B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2B0E5A9ADDBCEF3E5EE54C9E950F28 /* MobileCoreServices.framework */; };
-		31E2DEBFAA99F52E7ADA4C8BBAD7ED51 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C50DFA32EF114444A5E8C6855F749B5 /* AFNetworking.framework */; };
-		32076D3DD644045CF79DFFEBB6BFF3F2 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 907EBD05C24D3EC8D81F3A5FEE84121C /* UIButton+AFNetworking.m */; };
-		34C88657FE7ABE9F833623F94952D253 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 85053C33AB5B93D2852851105AAA32B1 /* UIProgressView+AFNetworking.m */; };
-		35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4088CDD2F5D16F78CD6D995025592E /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42AF1BB1ED090CC9E588A463441D09E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFEA74D2A58215414ED49CE13092761 /* SystemConfiguration.framework */; };
-		4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9F5DA3051DAC003422E54B3B4A6E9D /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45F802D04B3BE0CAEC586C2F3016027B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A1959F6F952532F523B4F8E9B751D /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD03D0BE06A3B18AD76D92D8234FBBB /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FDE8718B3C2608D30D734C8A15D3D3 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 103EE194B42BE62229AA5C5351E9BFE9 /* AFURLResponseSerialization.m */; };
-		649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DAA8D29D605736A0994260EEE74150 /* AFNetworkActivityIndicatorManager.m */; };
-		6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 31421BED59C8FE2DFEFD4457219B946A /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D394572C5A729B1951541AF717BE959 /* Pods-HTMIDownloadManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C5486E22FBDE2E1505C48ADD7F96CA /* Pods-HTMIDownloadManager_Example-dummy.m */; };
-		6D987FD00D070AFCA18B23AB5A3BC7F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D845BA077FC0B7DF61F37B225F4303E0 /* Foundation.framework */; };
-		789D749690B308852115FF20CD982A69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FA3A002A9B907B9A247654555AE61B /* CoreGraphics.framework */; };
-		7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C71DB2632AE2E107C12837E932A8E08 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A92DF8F709AC17557D98B6FEA553B7D /* HTMIDownloadSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B820E59D084B477363B6E53EF719472 /* HTMIDownloadSessionManager.m */; };
-		7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 766A8DB58B1DEC0150E36AD843786FF3 /* UIWebView+AFNetworking.m */; };
-		82D554EC9FB9A62D935B6555325F5898 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB330640FFAFDCD37E5CA38ABBBA635 /* Security.framework */; };
-		8DFD2B114872C3D66B42B78250EA41FD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E635AE637CD000A39F8F181F63B839 /* MapKit.framework */; };
-		8F75FC1B4693694094EA66BA5A53EE24 /* Pods-HTMIDownloadManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 685ED126381F2B437D69DAC1F2681740 /* Pods-HTMIDownloadManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA1B9153633729F35C67949C7006B7A /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 456884974FCD65674016A0D296E8D846 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 038DE6D856DFAE2F85304D036588D065 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97ACB14E1FEECECF5041060A8C288DE7 /* HTMIDownloadManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C68F93677E0AB8CC04B7D5594FA4FA1E /* HTMIDownloadManager-dummy.m */; };
-		A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEEB3CDE859F3F412940D15AA031037 /* AFAutoPurgingImageCache.m */; };
-		A384D61E3DDD3B174B839B989B889BC6 /* Pods-HTMIDownloadManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F8DC6C00992102157E01783FC777307 /* Pods-HTMIDownloadManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC24D481320415EB9DB59C7033DAC26 /* AFImageDownloader.m */; };
-		A8C297643282E0CF5E7DF9CB6E23A0D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D845BA077FC0B7DF61F37B225F4303E0 /* Foundation.framework */; };
-		AA3FB51035D9749B08CBDB272B5D7962 /* HTMIDownloadManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E6E34D9E229012F1892DB2A20AE1DBC /* HTMIDownloadManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 434E574D60CF3205EB86C49EB8453D2E /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF0093D53CA3D2D3046B4667C5FD25F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC298BD92CD030129FBD53A74C86A033 /* UIKit.framework */; };
-		B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDAFE16F1C06EFAE434D84600766A8 /* UIRefreshControl+AFNetworking.m */; };
-		B7F111C03E29915E57C4E212FCBB7DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D845BA077FC0B7DF61F37B225F4303E0 /* Foundation.framework */; };
-		CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = EECF143AE392C1D26B1C57DFCCC39E7E /* AFSecurityPolicy.m */; };
-		CF287829627F26B2EB4382B897D06A0E /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A189FDEF0AD08BC5DC357020B8DB5A /* AFNetworking-dummy.m */; };
-		D4E80BD7EAAB83200183110578A80591 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5EF98E2B153C6459F4BC74A2940581 /* AFURLSessionManager.m */; };
-		DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F42B01C0184F7993752BA21574CFB4 /* AFNetworkReachabilityManager.m */; };
-		E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 87463A8F055EEE85DD10593D0C8721B2 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5D24C90729BE8892E9367EC47BD5C0E /* HTMIDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6786211FB3048013A5114724C2708281 /* HTMIDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAF16633DB3C992CF975BE4A2932D41C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73950156966D6FB93DC14CBF7F3326A6 /* AFHTTPSessionManager.m */; };
-		F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 43581AD63883CAA415A71F817EED5D51 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D899C7AA0D7FC20160091BB9D31CF3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E287540F6AAFBD6834BFA37866AE26DA /* UIImageView+AFNetworking.m */; };
-		F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F05638D4877C1C9F1AAC3E348D5C7D70 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = E06C4D570ABCF18D8095B9111D3D3F98 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 72331BE0506F3DD494A77FEBDA1390E0 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1851598F7D649663DE13FAFC43C56924 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B52F9E954C04F2E86E658D73AF6467 /* UIActivityIndicatorView+AFNetworking.m */; };
+		15FDE5206E3285E7E080025F2588295C /* HTMIBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD2F5B2196107D41DD9F07F78925576 /* HTMIBaseRequest.m */; };
+		161EEBD18B1C33523F7BC92C7A6C98BD /* HTMIHttpsRequestProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E31D0EE8A24B5EFB4E5F0E4E0A43578C /* HTMIHttpsRequestProxy.m */; };
+		16241C16A5D66015A087F542011AB925 /* HTMISettingManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC713527ACDB9411A3E3675BAAF0A3 /* HTMISettingManager-dummy.m */; };
+		16B7AFD53C196AEEAA8985D828858EE3 /* HTMIDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3231A9DAA955B089319D0C5482F10 /* HTMIDownloadManager.m */; };
+		19E6DBC5592026D2BA0AAB78FF489AAC /* HTMIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CA14CA5DB7BB0A50F96414FC981915D5 /* HTMIResponse.m */; };
+		1AE389F0AFA3F148C33D5040A32E9FFC /* HTMISettingManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAB4FE490F03EFF5AD26B67981E3E5A /* HTMISettingManager.framework */; };
+		1D9BE22673AEEE21CA2483856280AFAC /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A4EE8A5CECC08A19207BF4211F2132 /* AFNetworking.framework */; };
+		1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8533B3BC5B154D44AF46D14BB1569CB8 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23671CAEE103B3468B33666A80353835 /* HTMINetWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E48AECDA3C7BDB9FFC6547DA4C9C1B /* HTMINetWork.framework */; };
+		245DC001B5E548BEB3F93F8DC031DC73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF88E0DD448F3BD259DD45C1CA6BC1D /* Foundation.framework */; };
+		290C8309E5606717AC7B522F46D4C9DD /* HTMIRequestProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = E467402BA958EE6378F9C01ECB288C6C /* HTMIRequestProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D09998CF08F7C8C9B75CA4C5DFA3F9D9 /* AFURLRequestSerialization.m */; };
+		2A6871680637B2B6D25DF3BA9A5170F2 /* HTMIBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BDB0BFCCC5F54C0E6B6EA897B2F9358 /* HTMIBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A96F2A56303B55CCF719CC3B6EB7728 /* HTMILogFunctionFinishApi.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F6F54DA871AAEB769B6A72D0148F78 /* HTMILogFunctionFinishApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E73EB040129704A0468BC94BA23B18 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C0680D8961F941E88604CEE1F4D9BBE /* NSDictionary+HTMINetworkParams.h in Headers */ = {isa = PBXBuildFile; fileRef = F1DDB428D0860AFF1B04B97E2FF15679 /* NSDictionary+HTMINetworkParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30F0BAE1DBB79BBB6CBD957EA8B89E4B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D5E708D068317BF926FBA6A686FDC1 /* MobileCoreServices.framework */; };
+		32076D3DD644045CF79DFFEBB6BFF3F2 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E288FF25C92169D790744C4942E87E1F /* UIButton+AFNetworking.m */; };
+		32BF328E6BEDD3634D2B5742209BAF37 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8D171D3B9E68D3ADBF6FD62FA1FC0E /* NSString+Hash.m */; };
+		339C6D2924CA0651F42821DE5349F1A6 /* NSArray+HTMINetworkParams.m in Sources */ = {isa = PBXBuildFile; fileRef = A87AF249D85CFE1D4CED2640EDBE6AAA /* NSArray+HTMINetworkParams.m */; };
+		34AF4E3632A6EE75B34922F4CB16CA67 /* HTMIResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBA2B6C0CD08DCB20586E18752A65BD /* HTMIResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34C88657FE7ABE9F833623F94952D253 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BCEC154D3FA81232C628C9CE4248C8 /* UIProgressView+AFNetworking.m */; };
+		35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7984017D9CBB46B394BF6D335E547E68 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B6E7F67593FE421791999925DB2F1B2 /* HTMINetWork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB30E67A1A2812F5E29DDC2D656B5699 /* HTMINetWork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F56A9C3AABB7F52D7F3C1BB2333F7F8 /* HTMICacheObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B488EC4665E695432F979F73BC955A6 /* HTMICacheObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F6509321B4D47888916466B95B3C060 /* HTMICacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D8874122BAD2EBB12CF9BFEB01C2E4 /* HTMICacheObject.m */; };
+		40113AA908B3B35909B9ACF19A36EC79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2846247330B4AA8128BFF428043252 /* UIKit.framework */; };
+		407B21679A1C75E2411C7E723A139BE8 /* HTMIUserdefaultHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F86A2342A6AB5C8FD7485EA994270 /* HTMIUserdefaultHelper.m */; };
+		42AF1BB1ED090CC9E588A463441D09E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA1052525D0734D21E0408D8D2F46BB /* SystemConfiguration.framework */; };
+		4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8CDFB9511A68187550B114F552D16D /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44D241EF176FC07E4B785C61339B0688 /* HTMIHttpsRequestProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5C1F45F5208DA61A0DCF8579D1AF71 /* HTMIHttpsRequestProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F802D04B3BE0CAEC586C2F3016027B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8053E42415EF6C438B24874B63DB5E6A /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCC00FFAE1D4D3DA3FC6E1A0A2BB7BB /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		494A1864A2E87ACBFB8A140DCD1BB9F1 /* HTMILogFunctionFinishApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 482F0D68F71A10CA13442FFC9624CB71 /* HTMILogFunctionFinishApi.m */; };
+		4A471D38139F8E5F55D4E83F7B537602 /* Pods-HTMIDownloadManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A63409FA3A6B9DB7ADDE27E81C48E61 /* Pods-HTMIDownloadManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B02B3E1EC2944113A81D728B676B59C /* NSString+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A8166C3C3EF56B82A74B4F05E7D607 /* NSString+Hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B8BABDEDBE720ACF58593A07352B502 /* HTMISettingManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAB4FE490F03EFF5AD26B67981E3E5A /* HTMISettingManager.framework */; };
+		51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6C457DC0D07B4281FDB595C4B15B38 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE004CD7588BD1EA3AD8392531E72D /* AFURLResponseSerialization.m */; };
+		5D9B49DF1B82D70C143AE6F332F7BA4A /* Pods-HTMIDownloadManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A58787D0C0A99747570523BE7352DB1 /* Pods-HTMIDownloadManager_Example-dummy.m */; };
+		649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9D1127850CE58C9B183F78732D393E /* AFNetworkActivityIndicatorManager.m */; };
+		6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 721F5C6DBF733DAF1DD87A045267F78A /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69A8F47E61900F5F58191F07D4529F26 /* NSString+HTMINetworkMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B00EAA61D80BCB326E8D4F9A78BF94 /* NSString+HTMINetworkMatch.m */; };
+		6E169198A42D169C1EB8136707C429E7 /* HTMIAccessTokenApi.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C55F866CE4F822E17CBF64A995F56E /* HTMIAccessTokenApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		789D749690B308852115FF20CD982A69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F504742AE97D358A659A6DBBF98840 /* CoreGraphics.framework */; };
+		7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E264AB6B8C182B00BFAAAC250DC8FC /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A6785146A429D80428B36DD5EE329FE /* HTMILogFunctionStartApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 8541B96FB505CFD2457D64913A95E4F8 /* HTMILogFunctionStartApi.m */; };
+		7AF27CDE824D401A4AB8AF5CD54932D0 /* HTMIDownloadManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD9824F535994CF9E34AF54F9554E69 /* HTMIDownloadManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B614811243429B041A376E1853B4B21 /* HTMINetWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B58D5C5B228B7B8446CB4E5267B2E22B /* HTMINetWork-dummy.m */; };
+		7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 46244092DC2AEEB9BEED7EC7C25F7DFB /* UIWebView+AFNetworking.m */; };
+		7E23D88E32964D8D6947348366AA3F13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE4D54EB7DD953374EA296E17A9E0C6 /* MapKit.framework */; };
+		803C36C74114FEE719C36D726D75C9D9 /* HTMISettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 196746E1E239BD2D89CC4324E23200CF /* HTMISettingManager.m */; };
+		82D554EC9FB9A62D935B6555325F5898 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661E8311E2FBE4DCDD733708612ED296 /* Security.framework */; };
+		90D393587FDAE71861C9FD570344A108 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF88E0DD448F3BD259DD45C1CA6BC1D /* Foundation.framework */; };
+		9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8646FD75BF21967395FA8DC31603AD20 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C204437E769DB72AC28A7EA966E5465 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C56B4C969E9AB5F77A8782E9F41EC82 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		949E16EC25BAE9D098194F02E6A44DEA /* HTMISettingManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6ECE72E3F340D1D00D5FF54F7ABF0E2 /* HTMISettingManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		964C2CDB99665CD049ED9025A498BEA9 /* HTMICache.h in Headers */ = {isa = PBXBuildFile; fileRef = 056D572A6CD7F53D01884044D64B8537 /* HTMICache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96834D0FA7376FF2028CD59CB05BB330 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A4EE8A5CECC08A19207BF4211F2132 /* AFNetworking.framework */; };
+		97CBC469996C2228B885D7F189779921 /* HTMIUserdefaultHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B25571F857114CC22706FF729513A34 /* HTMIUserdefaultHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BB0C45FAB3D55217E74471A40D0DA9E /* NSString+HTMINetworkMatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C66FF789C3910BDEEE326A63379F90A /* NSString+HTMINetworkMatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A67DF785D9D4434004A13545DEFC8D /* AFAutoPurgingImageCache.m */; };
+		A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F40C487DF5456BC7FEFEF3387EED1D /* AFImageDownloader.m */; };
+		A4D4CCA365ADD7A32946DBE4700AC4A7 /* HTMINormalRequestProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB59EBCB84C67BF4D320527C469757E9 /* HTMINormalRequestProxy.m */; };
+		A67E92344E2581DEEBA0589ED368FE1A /* HTMIDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C7B44AF40A48A0CB29CCDCC0F58757 /* HTMIDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A694D4F009A5D5B0CCD55884AF29B21F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF88E0DD448F3BD259DD45C1CA6BC1D /* Foundation.framework */; };
+		A8C297643282E0CF5E7DF9CB6E23A0D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF88E0DD448F3BD259DD45C1CA6BC1D /* Foundation.framework */; };
+		AB0BEE3B9223BF008FA41602126B6DD1 /* HTMIDownloadSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7DF275A4B90C4124C2839BDE2AE8B5 /* HTMIDownloadSessionManager.m */; };
+		AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1064445E23226F1B1DFC953D837E7C7B /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A96A04D01576A5A2671C790894810D00 /* UIRefreshControl+AFNetworking.m */; };
+		B2712C6E8FAE91FA324B5725AF9357B0 /* HTMINormalRequestProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C6D61C16E1D16244C96E39BB274C42 /* HTMINormalRequestProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2E85ED9A9AC376611C32A3B66A2A9AD /* HTMILogFunctionStartApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA00FD90B4FEBE0198F8F67742090D7 /* HTMILogFunctionStartApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC68348FFDF37ED50133C8F9949D04EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF88E0DD448F3BD259DD45C1CA6BC1D /* Foundation.framework */; };
+		BC79752930FEA0FF7E309FC03B70A6A5 /* NSArray+HTMINetworkParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 46753F08E1072D3087D6B617856B6358 /* NSArray+HTMINetworkParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 740662D6503C58F6945E85C53FEE4F93 /* AFSecurityPolicy.m */; };
+		CF287829627F26B2EB4382B897D06A0E /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC82A1FB8AAA7EA996606A77915C5E8 /* AFNetworking-dummy.m */; };
+		D22C2EE100D582F57C2EBCE9A4740E32 /* HTMISettingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4095E5D049786C41C2775F711FC58D44 /* HTMISettingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4E80BD7EAAB83200183110578A80591 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C6B23CFD040D75A43206ABB3FFE256 /* AFURLSessionManager.m */; };
+		DC326BA0358AC35E0DA22E79E969F29F /* HTMICache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22000D6DF88161A2E883589C818DDFD2 /* HTMICache.m */; };
+		DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5FA6E9B32762D3826A26CBA332CE4 /* AFNetworkReachabilityManager.m */; };
+		E0CA7AF5A768B698B38366DE3ED647FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2846247330B4AA8128BFF428043252 /* UIKit.framework */; };
+		E1746AC6307949186326797E91D035C0 /* HTMIDownloadManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F8B700D5B1C19420C79287B6B14950 /* HTMIDownloadManager-dummy.m */; };
+		E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3170A2FD811A33D065425D608C2FCE26 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA1EB9AD9C52A7F6713530C3C08894FB /* HTMIAccessTokenApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F06312F7F8A80F0C9BDC5A1E730184F /* HTMIAccessTokenApi.m */; };
+		EAF16633DB3C992CF975BE4A2932D41C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6453913C37FFCB9B2E319E7A947154CD /* AFHTTPSessionManager.m */; };
+		EAF3ACD454F57C1E2BFDC377A8390A38 /* NSDictionary+HTMINetworkParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F0E6FB63B2531BEC40D5A9479E18EF /* NSDictionary+HTMINetworkParams.m */; };
+		F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 5996DA09FFAA9C6B1363BBD6F38BC78C /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2D899C7AA0D7FC20160091BB9D31CF3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB9DE81BCFFDACBAA261BBDE1FCC86 /* UIImageView+AFNetworking.m */; };
+		F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF090C55E75C3369A597D4F3282F07B /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD1646F31D88BECD258F70D494D2F897 /* HTMINetworkConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F3F2BFECA33CD8B32AC4EC288E9AC8 /* HTMINetworkConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68D4800C1B47112B73C476D2C33DCC /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFF85523DF34F543FC984FB2F9F7D636 /* HTMIDownloadSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 52441C9DA7DF3B8A9ED16EF5B6441461 /* HTMIDownloadSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		332B3529D62D82F024CED2A36D4AC37D /* PBXContainerItemProxy */ = {
+		1E87315F72B5A9FD6A76B2A7D8162772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA45B0A208FA6D8A72A8609AD33710E2;
+			remoteInfo = HTMISettingManager;
+		};
+		4A8A7D1FF0BD6C1519619E4FCF7079BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA45B0A208FA6D8A72A8609AD33710E2;
+			remoteInfo = HTMISettingManager;
+		};
+		5C8D13E94BE107815275CA39BD8EC998 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF671F7E57B92905F1CC91D036D6B4A7;
 			remoteInfo = AFNetworking;
 		};
-		6E52D28B2D40DA5CE67D406E75CA4F6D /* PBXContainerItemProxy */ = {
+		A6BA92AA14F09060BCDE1548DBE029F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CF671F7E57B92905F1CC91D036D6B4A7;
-			remoteInfo = AFNetworking;
-		};
-		D654E99364CD51C2CA9C88F1F7502EAA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12A69D8E8DA9083E7ECCE63154B0AA6B;
+			remoteGlobalIDString = 75D2456FA922D17DDD6BB50EAF48E6A6;
 			remoteInfo = HTMIDownloadManager;
+		};
+		B90A7B792432AB03D65658FDC2B7C674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA45B0A208FA6D8A72A8609AD33710E2;
+			remoteInfo = HTMISettingManager;
+		};
+		D7BBDF078CC16D882FB74A700D7BB2EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4AD26DD975175D1AA727F3C51283D74;
+			remoteInfo = HTMINetWork;
+		};
+		E00B8FFDAE80B92387E299C4EE9BF6B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF671F7E57B92905F1CC91D036D6B4A7;
+			remoteInfo = AFNetworking;
+		};
+		EE3423A5AA35FB2461A830959F1D6891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4AD26DD975175D1AA727F3C51283D74;
+			remoteInfo = HTMINetWork;
+		};
+		F309F84AED5B1304E9A477BF968BBD95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF671F7E57B92905F1CC91D036D6B4A7;
+			remoteInfo = AFNetworking;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		038DE6D856DFAE2F85304D036588D065 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		077A1959F6F952532F523B4F8E9B751D /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		0AA1B9153633729F35C67949C7006B7A /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		0B820E59D084B477363B6E53EF719472 /* HTMIDownloadSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMIDownloadSessionManager.m; path = HTMIDownloadManager/Classes/HTMIDownloadSessionManager.m; sourceTree = "<group>"; };
-		10052D02BA339BB59B43D8C3EDBB9423 /* HTMIDownloadManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMIDownloadManager-prefix.pch"; sourceTree = "<group>"; };
-		103EE194B42BE62229AA5C5351E9BFE9 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		16B66C0AEBC9F9724A670DCF79BE4531 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		1ACF7DC45A4CA6A07203FB6A4832AE20 /* HTMIDownloadManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTMIDownloadManager.xcconfig; sourceTree = "<group>"; };
-		1C50DFA32EF114444A5E8C6855F749B5 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2197B6D8796AA07D74AEFEC37B2EB69B /* Pods-HTMIDownloadManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTMIDownloadManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		21FB52917D6BADAF2690FE0433E61366 /* NSString+Hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Hash.h"; path = "HTMIDownloadManager/Classes/NSString+Hash.h"; sourceTree = "<group>"; };
-		31421BED59C8FE2DFEFD4457219B946A /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		3BC24D481320415EB9DB59C7033DAC26 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		3C71DB2632AE2E107C12837E932A8E08 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		3E6170124D331A7A9B3362E7BF0043FF /* Pods-HTMIDownloadManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTMIDownloadManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3E6E34D9E229012F1892DB2A20AE1DBC /* HTMIDownloadManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMIDownloadManager-umbrella.h"; sourceTree = "<group>"; };
-		3EE5CEA72C2AC7B2283CD75F308B7624 /* Pods-HTMIDownloadManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTMIDownloadManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		434E574D60CF3205EB86C49EB8453D2E /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		43581AD63883CAA415A71F817EED5D51 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		456884974FCD65674016A0D296E8D846 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		4DDDAFE16F1C06EFAE434D84600766A8 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		4EF6156D6545688F90A202B52DED2090 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F8DC6C00992102157E01783FC777307 /* Pods-HTMIDownloadManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTMIDownloadManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		598BE48916CCB6B03F2FF7CFCF276388 /* Pods-HTMIDownloadManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTMIDownloadManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5DF61A14711D22822C937C4D84E5A200 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FB5BE35EDBD0E085CB38729C473D1C6 /* Pods-HTMIDownloadManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HTMIDownloadManager_Tests.modulemap"; sourceTree = "<group>"; };
-		60FDE8718B3C2608D30D734C8A15D3D3 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		64EA6D85690B6B0200895F6CCE1F98E6 /* HTMIDownloadManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HTMIDownloadManager.modulemap; sourceTree = "<group>"; };
-		6786211FB3048013A5114724C2708281 /* HTMIDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMIDownloadManager.h; path = HTMIDownloadManager/Classes/HTMIDownloadManager.h; sourceTree = "<group>"; };
-		685ED126381F2B437D69DAC1F2681740 /* Pods-HTMIDownloadManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTMIDownloadManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		69DAA8D29D605736A0994260EEE74150 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		6AF8086494FE7A305D9AA3F3E26EF057 /* Pods-HTMIDownloadManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMIDownloadManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6B110116A513D41CB598DD6ED3ED8ECA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C4538E8E793CA14B524ADE5B2CB35BE /* Pods-HTMIDownloadManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMIDownloadManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6FBE89B620A9DBCB4092AC821880D679 /* Pods-HTMIDownloadManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTMIDownloadManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		73950156966D6FB93DC14CBF7F3326A6 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		766A8DB58B1DEC0150E36AD843786FF3 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		7A7D486B4CB2E4037153A5847F45EAA0 /* Pods-HTMIDownloadManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HTMIDownloadManager_Example.modulemap"; sourceTree = "<group>"; };
-		7FEBEAD524FBA9CB3333D35635D65A03 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		85053C33AB5B93D2852851105AAA32B1 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		86F42B01C0184F7993752BA21574CFB4 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		87463A8F055EEE85DD10593D0C8721B2 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		87F2D51A2A38586F4AD81C1698DCE237 /* NSString+Hash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Hash.m"; path = "HTMIDownloadManager/Classes/NSString+Hash.m"; sourceTree = "<group>"; };
-		907EBD05C24D3EC8D81F3A5FEE84121C /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98A189FDEF0AD08BC5DC357020B8DB5A /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		996D38C17E48CD16703CD9A31F9F6EC7 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		9B5EF98E2B153C6459F4BC74A2940581 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		9F3969FE5FB66BB4B77E31F5DC2B4C7E /* Pods-HTMIDownloadManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMIDownloadManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A39107EEA293C692022DBFA34617CFB0 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		A67BADF3B6B6809204F81AD1693577F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6A9A2F3CA0F9CEE9059BCC6467A6D2F /* HTMIDownloadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMIDownloadManager.m; path = HTMIDownloadManager/Classes/HTMIDownloadManager.m; sourceTree = "<group>"; };
-		A6D8835361318F433CE0B376E7D9E7E9 /* HTMIDownloadManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTMIDownloadManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB4088CDD2F5D16F78CD6D995025592E /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		ABB330640FFAFDCD37E5CA38ABBBA635 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		ABFEA74D2A58215414ED49CE13092761 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		B00ABE2539A23D5CD12E8B3547F05E07 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		B1892A6991F3D847C31FDA8D76315525 /* HTMIDownloadSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMIDownloadSessionManager.h; path = HTMIDownloadManager/Classes/HTMIDownloadSessionManager.h; sourceTree = "<group>"; };
-		B5B861769ED5255C1F64B28BE978271E /* Pods_HTMIDownloadManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTMIDownloadManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5FB2BC83B1CAF09DA68C6C64F67D8C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6C5486E22FBDE2E1505C48ADD7F96CA /* Pods-HTMIDownloadManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTMIDownloadManager_Example-dummy.m"; sourceTree = "<group>"; };
-		B775F2CB1A9FB265DAF8C6F05776A69E /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		B9FA3A002A9B907B9A247654555AE61B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		BAEEB3CDE859F3F412940D15AA031037 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		BBFFB017C21EB832EA2F5249129F0E23 /* Pods-HTMIDownloadManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTMIDownloadManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		C68F93677E0AB8CC04B7D5594FA4FA1E /* HTMIDownloadManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTMIDownloadManager-dummy.m"; sourceTree = "<group>"; };
-		D74F6299BB2EA21F77E375D4FD40BC09 /* Pods_HTMIDownloadManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTMIDownloadManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D845BA077FC0B7DF61F37B225F4303E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E06C4D570ABCF18D8095B9111D3D3F98 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		E287540F6AAFBD6834BFA37866AE26DA /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		E363399C8F7BCAD4FC7BD1CDBF97CD10 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		E67D863115161F5CC012D5384D7D20CA /* Pods-HTMIDownloadManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMIDownloadManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E6E0C171634A123A0E7FC39F44FA05D2 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		EB9F5DA3051DAC003422E54B3B4A6E9D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		EE5CE9B8CA25018A3E8A34809CF7FEAE /* Pods-HTMIDownloadManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTMIDownloadManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		EECF143AE392C1D26B1C57DFCCC39E7E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		F02087B50847A2722822AC217941C8EE /* Pods-HTMIDownloadManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTMIDownloadManager_Example-resources.sh"; sourceTree = "<group>"; };
-		F05638D4877C1C9F1AAC3E348D5C7D70 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		F0A9E496ED9992F5DD5CE1DCC2BBFE76 /* Pods-HTMIDownloadManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTMIDownloadManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F1E635AE637CD000A39F8F181F63B839 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		F7617E4141049E867B695D99457B2D51 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		FC298BD92CD030129FBD53A74C86A033 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		FDD03D0BE06A3B18AD76D92D8234FBBB /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		FE2B0E5A9ADDBCEF3E5EE54C9E950F28 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		056D572A6CD7F53D01884044D64B8537 /* HTMICache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMICache.h; path = HTMINetWork/Classes/HTMICache.h; sourceTree = "<group>"; };
+		05BCEC154D3FA81232C628C9CE4248C8 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		07B8E0227EEB550E2F11CBB0318C6E7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0A68D4800C1B47112B73C476D2C33DCC /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		0B25571F857114CC22706FF729513A34 /* HTMIUserdefaultHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMIUserdefaultHelper.h; path = HTMISettingManager/Classes/UserDefault/HTMIUserdefaultHelper.h; sourceTree = "<group>"; };
+		0BDB0BFCCC5F54C0E6B6EA897B2F9358 /* HTMIBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMIBaseRequest.h; path = HTMINetWork/Classes/HTMIBaseRequest.h; sourceTree = "<group>"; };
+		0CCC00FFAE1D4D3DA3FC6E1A0A2BB7BB /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		0D3B905FBC1763FB559BE227EB9101D3 /* HTMISettingManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HTMISettingManager.modulemap; sourceTree = "<group>"; };
+		0D52F29CE918382BED1841833104D9A1 /* Pods-HTMIDownloadManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTMIDownloadManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E9D1127850CE58C9B183F78732D393E /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		1064445E23226F1B1DFC953D837E7C7B /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		1851598F7D649663DE13FAFC43C56924 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		196746E1E239BD2D89CC4324E23200CF /* HTMISettingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMISettingManager.m; path = HTMISettingManager/Classes/SettingManager/HTMISettingManager.m; sourceTree = "<group>"; };
+		19B00EAA61D80BCB326E8D4F9A78BF94 /* NSString+HTMINetworkMatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTMINetworkMatch.m"; path = "HTMINetWork/Classes/NSString+HTMINetworkMatch.m"; sourceTree = "<group>"; };
+		1BF090C55E75C3369A597D4F3282F07B /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		1CEC713527ACDB9411A3E3675BAAF0A3 /* HTMISettingManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTMISettingManager-dummy.m"; sourceTree = "<group>"; };
+		20F0E6FB63B2531BEC40D5A9479E18EF /* NSDictionary+HTMINetworkParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+HTMINetworkParams.m"; path = "HTMINetWork/Classes/NSDictionary+HTMINetworkParams.m"; sourceTree = "<group>"; };
+		22000D6DF88161A2E883589C818DDFD2 /* HTMICache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMICache.m; path = HTMINetWork/Classes/HTMICache.m; sourceTree = "<group>"; };
+		27D5E708D068317BF926FBA6A686FDC1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		3170A2FD811A33D065425D608C2FCE26 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		34714B53776EB3F0F270DF1B1555160D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359DCE0674734EDF694970C7E86BF602 /* HTMINetWork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HTMINetWork.modulemap; sourceTree = "<group>"; };
+		38C6B23CFD040D75A43206ABB3FFE256 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		39DE004CD7588BD1EA3AD8392531E72D /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		3A68BC0FFDAFD503888A816263ECEB3A /* Pods_HTMIDownloadManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HTMIDownloadManager_Example.framework; path = "Pods-HTMIDownloadManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA1052525D0734D21E0408D8D2F46BB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		3BDD04F4618344A6501BEC80C97099F5 /* Pods-HTMIDownloadManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMIDownloadManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4095E5D049786C41C2775F711FC58D44 /* HTMISettingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMISettingManager.h; path = HTMISettingManager/Classes/SettingManager/HTMISettingManager.h; sourceTree = "<group>"; };
+		40FEB4BFEB100C52B47C6849ACC6B236 /* HTMINetWork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTMINetWork.xcconfig; sourceTree = "<group>"; };
+		42F40C487DF5456BC7FEFEF3387EED1D /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		46244092DC2AEEB9BEED7EC7C25F7DFB /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		46753F08E1072D3087D6B617856B6358 /* NSArray+HTMINetworkParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+HTMINetworkParams.h"; path = "HTMINetWork/Classes/NSArray+HTMINetworkParams.h"; sourceTree = "<group>"; };
+		468105C74BF1BA49ECB11632A1FDC7B8 /* HTMIDownloadManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTMIDownloadManager.framework; path = HTMIDownloadManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		482F0D68F71A10CA13442FFC9624CB71 /* HTMILogFunctionFinishApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMILogFunctionFinishApi.m; path = HTMINetWork/Classes/HTMILogFunctionFinishApi.m; sourceTree = "<group>"; };
+		49F504742AE97D358A659A6DBBF98840 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4A7DF275A4B90C4124C2839BDE2AE8B5 /* HTMIDownloadSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMIDownloadSessionManager.m; path = HTMIDownloadManager/Classes/HTMIDownloadSessionManager.m; sourceTree = "<group>"; };
+		4CA00FD90B4FEBE0198F8F67742090D7 /* HTMILogFunctionStartApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMILogFunctionStartApi.h; path = HTMINetWork/Classes/HTMILogFunctionStartApi.h; sourceTree = "<group>"; };
+		4FBB9DE81BCFFDACBAA261BBDE1FCC86 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		4FFFCD05EC18C4A49ACAEE772A3526E7 /* HTMINetWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMINetWork-prefix.pch"; sourceTree = "<group>"; };
+		51F3F2BFECA33CD8B32AC4EC288E9AC8 /* HTMINetworkConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMINetworkConfiguration.h; path = HTMINetWork/Classes/HTMINetworkConfiguration.h; sourceTree = "<group>"; };
+		52441C9DA7DF3B8A9ED16EF5B6441461 /* HTMIDownloadSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMIDownloadSessionManager.h; path = HTMIDownloadManager/Classes/HTMIDownloadSessionManager.h; sourceTree = "<group>"; };
+		5996DA09FFAA9C6B1363BBD6F38BC78C /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		59E264AB6B8C182B00BFAAAC250DC8FC /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		5AD13856B9DC0F813C29365D96712741 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		62453D6E3BB0BFB4F1403DE3E718A34E /* Pods-HTMIDownloadManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMIDownloadManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6453913C37FFCB9B2E319E7A947154CD /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		661E8311E2FBE4DCDD733708612ED296 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		67C6D61C16E1D16244C96E39BB274C42 /* HTMINormalRequestProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMINormalRequestProxy.h; path = HTMINetWork/Classes/HTMINormalRequestProxy.h; sourceTree = "<group>"; };
+		6A85FC5FBC848406BC43DFCD3B64059C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B488EC4665E695432F979F73BC955A6 /* HTMICacheObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMICacheObject.h; path = HTMINetWork/Classes/HTMICacheObject.h; sourceTree = "<group>"; };
+		6CD2F5B2196107D41DD9F07F78925576 /* HTMIBaseRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMIBaseRequest.m; path = HTMINetWork/Classes/HTMIBaseRequest.m; sourceTree = "<group>"; };
+		721F5C6DBF733DAF1DD87A045267F78A /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		72331BE0506F3DD494A77FEBDA1390E0 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		72C2FEC346A9EA89D4C4395FE1DE34B3 /* HTMIDownloadManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMIDownloadManager-prefix.pch"; sourceTree = "<group>"; };
+		7312DE628B507F81705CBC93B0FAC6C2 /* HTMISettingManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMISettingManager-prefix.pch"; sourceTree = "<group>"; };
+		740662D6503C58F6945E85C53FEE4F93 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		7463B7C6717E612994A7FF18C6616F93 /* HTMIDownloadManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTMIDownloadManager.xcconfig; sourceTree = "<group>"; };
+		77EE63CC574E6EC835C920C4BF7960DA /* Pods-HTMIDownloadManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTMIDownloadManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7984017D9CBB46B394BF6D335E547E68 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		7A63409FA3A6B9DB7ADDE27E81C48E61 /* Pods-HTMIDownloadManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTMIDownloadManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		7C66FF789C3910BDEEE326A63379F90A /* NSString+HTMINetworkMatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HTMINetworkMatch.h"; path = "HTMINetWork/Classes/NSString+HTMINetworkMatch.h"; sourceTree = "<group>"; };
+		7C7FCFDA7394732C975A41E1D86C9C0A /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		8053E42415EF6C438B24874B63DB5E6A /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		82E48AECDA3C7BDB9FFC6547DA4C9C1B /* HTMINetWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTMINetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A25198CCCC83B6193120AA2651D753 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8533B3BC5B154D44AF46D14BB1569CB8 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		8541B96FB505CFD2457D64913A95E4F8 /* HTMILogFunctionStartApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMILogFunctionStartApi.m; path = HTMINetWork/Classes/HTMILogFunctionStartApi.m; sourceTree = "<group>"; };
+		8646FD75BF21967395FA8DC31603AD20 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		8A58787D0C0A99747570523BE7352DB1 /* Pods-HTMIDownloadManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTMIDownloadManager_Example-dummy.m"; sourceTree = "<group>"; };
+		8B2357D8EBC72C6E54E32281FC6AD655 /* HTMISettingManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTMISettingManager.xcconfig; sourceTree = "<group>"; };
+		8C56B4C969E9AB5F77A8782E9F41EC82 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		8CBA2B6C0CD08DCB20586E18752A65BD /* HTMIResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMIResponse.h; path = HTMINetWork/Classes/HTMIResponse.h; sourceTree = "<group>"; };
+		8F06312F7F8A80F0C9BDC5A1E730184F /* HTMIAccessTokenApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMIAccessTokenApi.m; path = HTMINetWork/Classes/HTMIAccessTokenApi.m; sourceTree = "<group>"; };
+		903443A6905DD0DDA485C6D210759085 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		90A67DF785D9D4434004A13545DEFC8D /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99F8B700D5B1C19420C79287B6B14950 /* HTMIDownloadManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTMIDownloadManager-dummy.m"; sourceTree = "<group>"; };
+		9BF88E0DD448F3BD259DD45C1CA6BC1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9C204437E769DB72AC28A7EA966E5465 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		9C8F86A2342A6AB5C8FD7485EA994270 /* HTMIUserdefaultHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMIUserdefaultHelper.m; path = HTMISettingManager/Classes/UserDefault/HTMIUserdefaultHelper.m; sourceTree = "<group>"; };
+		9CC6F225FCD775095448DAE969BEF352 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A002F745DA98CAAAA3B5AA1C2220E4C0 /* HTMISettingManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTMISettingManager.framework; path = HTMISettingManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C55F866CE4F822E17CBF64A995F56E /* HTMIAccessTokenApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMIAccessTokenApi.h; path = HTMINetWork/Classes/HTMIAccessTokenApi.h; sourceTree = "<group>"; };
+		A2F44978387FCD5C6EC3D5768FA8B906 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D28303A1529E7F7BB464C10E4301F0 /* Pods-HTMIDownloadManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTMIDownloadManager_Example-resources.sh"; sourceTree = "<group>"; };
+		A7D8874122BAD2EBB12CF9BFEB01C2E4 /* HTMICacheObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMICacheObject.m; path = HTMINetWork/Classes/HTMICacheObject.m; sourceTree = "<group>"; };
+		A87AF249D85CFE1D4CED2640EDBE6AAA /* NSArray+HTMINetworkParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+HTMINetworkParams.m"; path = "HTMINetWork/Classes/NSArray+HTMINetworkParams.m"; sourceTree = "<group>"; };
+		A901ABC483E8BADBC11D6EF248E617C6 /* HTMIDownloadManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HTMIDownloadManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A96A04D01576A5A2671C790894810D00 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		AAD6C1A2FBEE09421EEAA18E8AFA9F9C /* HTMINetWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTMINetWork.framework; path = HTMINetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC82A1FB8AAA7EA996606A77915C5E8 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		B58D5C5B228B7B8446CB4E5267B2E22B /* HTMINetWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTMINetWork-dummy.m"; sourceTree = "<group>"; };
+		B5C7B44AF40A48A0CB29CCDCC0F58757 /* HTMIDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMIDownloadManager.h; path = HTMIDownloadManager/Classes/HTMIDownloadManager.h; sourceTree = "<group>"; };
+		B7B52F9E954C04F2E86E658D73AF6467 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		BF80DFD89DD62B969AEA44F8791B4B9E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1EF011401BC3BFE059C4F1EA289575A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C4E73EB040129704A0468BC94BA23B18 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		C6A4EE8A5CECC08A19207BF4211F2132 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA14CA5DB7BB0A50F96414FC981915D5 /* HTMIResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMIResponse.m; path = HTMINetWork/Classes/HTMIResponse.m; sourceTree = "<group>"; };
+		CB59EBCB84C67BF4D320527C469757E9 /* HTMINormalRequestProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMINormalRequestProxy.m; path = HTMINetWork/Classes/HTMINormalRequestProxy.m; sourceTree = "<group>"; };
+		CB8CDFB9511A68187550B114F552D16D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		D09998CF08F7C8C9B75CA4C5DFA3F9D9 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		DA8F466DC4DC46543426B3E192F5D58E /* HTMIDownloadManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HTMIDownloadManager.modulemap; sourceTree = "<group>"; };
+		DD2846247330B4AA8128BFF428043252 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD5C1F45F5208DA61A0DCF8579D1AF71 /* HTMIHttpsRequestProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMIHttpsRequestProxy.h; path = HTMINetWork/Classes/HTMIHttpsRequestProxy.h; sourceTree = "<group>"; };
+		E0937943800C51A80210472F2E9A004D /* Pods-HTMIDownloadManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTMIDownloadManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E0F6F54DA871AAEB769B6A72D0148F78 /* HTMILogFunctionFinishApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMILogFunctionFinishApi.h; path = HTMINetWork/Classes/HTMILogFunctionFinishApi.h; sourceTree = "<group>"; };
+		E288FF25C92169D790744C4942E87E1F /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		E31D0EE8A24B5EFB4E5F0E4E0A43578C /* HTMIHttpsRequestProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMIHttpsRequestProxy.m; path = HTMINetWork/Classes/HTMIHttpsRequestProxy.m; sourceTree = "<group>"; };
+		E467402BA958EE6378F9C01ECB288C6C /* HTMIRequestProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMIRequestProxy.h; path = HTMINetWork/Classes/HTMIRequestProxy.h; sourceTree = "<group>"; };
+		E6ECE72E3F340D1D00D5FF54F7ABF0E2 /* HTMISettingManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMISettingManager-umbrella.h"; sourceTree = "<group>"; };
+		EB30E67A1A2812F5E29DDC2D656B5699 /* HTMINetWork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMINetWork-umbrella.h"; sourceTree = "<group>"; };
+		EEE4D54EB7DD953374EA296E17A9E0C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		EFD9824F535994CF9E34AF54F9554E69 /* HTMIDownloadManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMIDownloadManager-umbrella.h"; sourceTree = "<group>"; };
+		F1A8166C3C3EF56B82A74B4F05E7D607 /* NSString+Hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Hash.h"; path = "HTMIDownloadManager/Classes/NSString+Hash.h"; sourceTree = "<group>"; };
+		F1B5FA6E9B32762D3826A26CBA332CE4 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		F1DDB428D0860AFF1B04B97E2FF15679 /* NSDictionary+HTMINetworkParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+HTMINetworkParams.h"; path = "HTMINetWork/Classes/NSDictionary+HTMINetworkParams.h"; sourceTree = "<group>"; };
+		F1E3231A9DAA955B089319D0C5482F10 /* HTMIDownloadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMIDownloadManager.m; path = HTMIDownloadManager/Classes/HTMIDownloadManager.m; sourceTree = "<group>"; };
+		FBAB4FE490F03EFF5AD26B67981E3E5A /* HTMISettingManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTMISettingManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6C457DC0D07B4281FDB595C4B15B38 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		FC8D171D3B9E68D3ADBF6FD62FA1FC0E /* NSString+Hash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Hash.m"; path = "HTMIDownloadManager/Classes/NSString+Hash.m"; sourceTree = "<group>"; };
+		FF2DE2DAC5D461208D7A73EFF69F8DD5 /* Pods-HTMIDownloadManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HTMIDownloadManager_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		255098CC47A6821C75C0AFBB16B3D64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC68348FFDF37ED50133C8F9949D04EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387EBF5D9B6570329BB41763CDB1D222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96834D0FA7376FF2028CD59CB05BB330 /* AFNetworking.framework in Frameworks */,
+				90D393587FDAE71861C9FD570344A108 /* Foundation.framework in Frameworks */,
+				23671CAEE103B3468B33666A80353835 /* HTMINetWork.framework in Frameworks */,
+				4B8BABDEDBE720ACF58593A07352B502 /* HTMISettingManager.framework in Frameworks */,
+				7E23D88E32964D8D6947348366AA3F13 /* MapKit.framework in Frameworks */,
+				40113AA908B3B35909B9ACF19A36EC79 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57F44911563C03EE01D7E49B4C1F0D0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -191,286 +330,382 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B175C86979A88B9526B521E68D318C7 /* Frameworks */ = {
+		9CEFFC13568AF5D30C31894E6DB774DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F111C03E29915E57C4E212FCBB7DF1 /* Foundation.framework in Frameworks */,
+				1D9BE22673AEEE21CA2483856280AFAC /* AFNetworking.framework in Frameworks */,
+				A694D4F009A5D5B0CCD55884AF29B21F /* Foundation.framework in Frameworks */,
+				1AE389F0AFA3F148C33D5040A32E9FFC /* HTMISettingManager.framework in Frameworks */,
+				E0CA7AF5A768B698B38366DE3ED647FF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA66DF2D32C3F0FE52A30A11CEA8F4DE /* Frameworks */ = {
+		A4779524A7D4CB1BBD5D804D9351AB2F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1257BE0700EBC61CB5DA73B0F98986EA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EFE98B57F0C97510E0D0C37E433E91A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31E2DEBFAA99F52E7ADA4C8BBAD7ED51 /* AFNetworking.framework in Frameworks */,
-				6D987FD00D070AFCA18B23AB5A3BC7F5 /* Foundation.framework in Frameworks */,
-				8DFD2B114872C3D66B42B78250EA41FD /* MapKit.framework in Frameworks */,
-				AF0093D53CA3D2D3046B4667C5FD25F6 /* UIKit.framework in Frameworks */,
+				245DC001B5E548BEB3F93F8DC031DC73 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42A99E9A7435A54EDE043B51244E8A0A /* Pods-HTMIDownloadManager_Tests */ = {
+		112A529C458652AA1086E6C84213605F /* HTMINetWork */ = {
 			isa = PBXGroup;
 			children = (
-				6B110116A513D41CB598DD6ED3ED8ECA /* Info.plist */,
-				5FB5BE35EDBD0E085CB38729C473D1C6 /* Pods-HTMIDownloadManager_Tests.modulemap */,
-				598BE48916CCB6B03F2FF7CFCF276388 /* Pods-HTMIDownloadManager_Tests-acknowledgements.markdown */,
-				3E6170124D331A7A9B3362E7BF0043FF /* Pods-HTMIDownloadManager_Tests-acknowledgements.plist */,
-				BBFFB017C21EB832EA2F5249129F0E23 /* Pods-HTMIDownloadManager_Tests-dummy.m */,
-				3EE5CEA72C2AC7B2283CD75F308B7624 /* Pods-HTMIDownloadManager_Tests-frameworks.sh */,
-				EE5CE9B8CA25018A3E8A34809CF7FEAE /* Pods-HTMIDownloadManager_Tests-resources.sh */,
-				4F8DC6C00992102157E01783FC777307 /* Pods-HTMIDownloadManager_Tests-umbrella.h */,
-				6C4538E8E793CA14B524ADE5B2CB35BE /* Pods-HTMIDownloadManager_Tests.debug.xcconfig */,
-				E67D863115161F5CC012D5384D7D20CA /* Pods-HTMIDownloadManager_Tests.release.xcconfig */,
+				A0C55F866CE4F822E17CBF64A995F56E /* HTMIAccessTokenApi.h */,
+				8F06312F7F8A80F0C9BDC5A1E730184F /* HTMIAccessTokenApi.m */,
+				0BDB0BFCCC5F54C0E6B6EA897B2F9358 /* HTMIBaseRequest.h */,
+				6CD2F5B2196107D41DD9F07F78925576 /* HTMIBaseRequest.m */,
+				056D572A6CD7F53D01884044D64B8537 /* HTMICache.h */,
+				22000D6DF88161A2E883589C818DDFD2 /* HTMICache.m */,
+				6B488EC4665E695432F979F73BC955A6 /* HTMICacheObject.h */,
+				A7D8874122BAD2EBB12CF9BFEB01C2E4 /* HTMICacheObject.m */,
+				DD5C1F45F5208DA61A0DCF8579D1AF71 /* HTMIHttpsRequestProxy.h */,
+				E31D0EE8A24B5EFB4E5F0E4E0A43578C /* HTMIHttpsRequestProxy.m */,
+				E0F6F54DA871AAEB769B6A72D0148F78 /* HTMILogFunctionFinishApi.h */,
+				482F0D68F71A10CA13442FFC9624CB71 /* HTMILogFunctionFinishApi.m */,
+				4CA00FD90B4FEBE0198F8F67742090D7 /* HTMILogFunctionStartApi.h */,
+				8541B96FB505CFD2457D64913A95E4F8 /* HTMILogFunctionStartApi.m */,
+				51F3F2BFECA33CD8B32AC4EC288E9AC8 /* HTMINetworkConfiguration.h */,
+				67C6D61C16E1D16244C96E39BB274C42 /* HTMINormalRequestProxy.h */,
+				CB59EBCB84C67BF4D320527C469757E9 /* HTMINormalRequestProxy.m */,
+				E467402BA958EE6378F9C01ECB288C6C /* HTMIRequestProxy.h */,
+				8CBA2B6C0CD08DCB20586E18752A65BD /* HTMIResponse.h */,
+				CA14CA5DB7BB0A50F96414FC981915D5 /* HTMIResponse.m */,
+				46753F08E1072D3087D6B617856B6358 /* NSArray+HTMINetworkParams.h */,
+				A87AF249D85CFE1D4CED2640EDBE6AAA /* NSArray+HTMINetworkParams.m */,
+				F1DDB428D0860AFF1B04B97E2FF15679 /* NSDictionary+HTMINetworkParams.h */,
+				20F0E6FB63B2531BEC40D5A9479E18EF /* NSDictionary+HTMINetworkParams.m */,
+				7C66FF789C3910BDEEE326A63379F90A /* NSString+HTMINetworkMatch.h */,
+				19B00EAA61D80BCB326E8D4F9A78BF94 /* NSString+HTMINetworkMatch.m */,
+				934E9C0D92D543CF8DEBF93E07FACCF1 /* Support Files */,
 			);
-			name = "Pods-HTMIDownloadManager_Tests";
-			path = "Target Support Files/Pods-HTMIDownloadManager_Tests";
+			name = HTMINetWork;
+			path = HTMINetWork;
 			sourceTree = "<group>";
 		};
-		4E14AEFE039A6F01713EDE2FB7BAB596 /* Products */ = {
+		12F9BBD7642C23F6416960BBB5737131 /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
-				4EF6156D6545688F90A202B52DED2090 /* AFNetworking.framework */,
-				A6D8835361318F433CE0B376E7D9E7E9 /* HTMIDownloadManager.framework */,
-				D74F6299BB2EA21F77E375D4FD40BC09 /* Pods_HTMIDownloadManager_Example.framework */,
-				B5B861769ED5255C1F64B28BE978271E /* Pods_HTMIDownloadManager_Tests.framework */,
+				5996DA09FFAA9C6B1363BBD6F38BC78C /* AFURLRequestSerialization.h */,
+				D09998CF08F7C8C9B75CA4C5DFA3F9D9 /* AFURLRequestSerialization.m */,
+				8C56B4C969E9AB5F77A8782E9F41EC82 /* AFURLResponseSerialization.h */,
+				39DE004CD7588BD1EA3AD8392531E72D /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		28D5B99F5D98C8BB44DBC3FB4B1D8ED9 /* HTMISettingManager */ = {
+			isa = PBXGroup;
+			children = (
+				4095E5D049786C41C2775F711FC58D44 /* HTMISettingManager.h */,
+				196746E1E239BD2D89CC4324E23200CF /* HTMISettingManager.m */,
+				0B25571F857114CC22706FF729513A34 /* HTMIUserdefaultHelper.h */,
+				9C8F86A2342A6AB5C8FD7485EA994270 /* HTMIUserdefaultHelper.m */,
+				F1184EC499B9EF84DE50254D775BDA3F /* Support Files */,
+			);
+			name = HTMISettingManager;
+			path = HTMISettingManager;
+			sourceTree = "<group>";
+		};
+		29E945779A369367C71A02B34B771EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2F44978387FCD5C6EC3D5768FA8B906 /* AFNetworking.framework */,
+				468105C74BF1BA49ECB11632A1FDC7B8 /* HTMIDownloadManager.framework */,
+				AAD6C1A2FBEE09421EEAA18E8AFA9F9C /* HTMINetWork.framework */,
+				A002F745DA98CAAAA3B5AA1C2220E4C0 /* HTMISettingManager.framework */,
+				3A68BC0FFDAFD503888A816263ECEB3A /* Pods_HTMIDownloadManager_Example.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		641BDD347DE7B8BB81D6CA5727C6EC5A /* Pods */ = {
+		329035F535CDA0972498B876EC214CFE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8DD046F7FCE6E3DDF168C9AD96C59FED /* AFNetworking */,
+				FE87B561DDA1347D36ED4D2F73D1C387 /* HTMIDownloadManager */,
 			);
-			name = Pods;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		6821ED4ACF6E241AABCC047501B9B275 /* Security */ = {
+		3360A1393EB5AB199ED9F4647E129EBF /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				31421BED59C8FE2DFEFD4457219B946A /* AFSecurityPolicy.h */,
-				EECF143AE392C1D26B1C57DFCCC39E7E /* AFSecurityPolicy.m */,
+				CB8CDFB9511A68187550B114F552D16D /* AFHTTPSessionManager.h */,
+				6453913C37FFCB9B2E319E7A947154CD /* AFHTTPSessionManager.m */,
+				1064445E23226F1B1DFC953D837E7C7B /* AFURLSessionManager.h */,
+				38C6B23CFD040D75A43206ABB3FFE256 /* AFURLSessionManager.m */,
 			);
-			name = Security;
+			name = NSURLSession;
 			sourceTree = "<group>";
 		};
-		6C5EF6B89BEBD4B73AEDAF254F45564F /* Serialization */ = {
+		3A215DEC1619D7E5AE530FEFA3D64860 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				43581AD63883CAA415A71F817EED5D51 /* AFURLRequestSerialization.h */,
-				16B66C0AEBC9F9724A670DCF79BE4531 /* AFURLRequestSerialization.m */,
-				038DE6D856DFAE2F85304D036588D065 /* AFURLResponseSerialization.h */,
-				103EE194B42BE62229AA5C5351E9BFE9 /* AFURLResponseSerialization.m */,
+				C6A4EE8A5CECC08A19207BF4211F2132 /* AFNetworking.framework */,
+				82E48AECDA3C7BDB9FFC6547DA4C9C1B /* HTMINetWork.framework */,
+				FBAB4FE490F03EFF5AD26B67981E3E5A /* HTMISettingManager.framework */,
+				76596F85F2568497C6B2FCB376572034 /* iOS */,
 			);
-			name = Serialization;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4192E2E047431598AD91F778D42E20CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C7FCFDA7394732C975A41E1D86C9C0A /* AFNetworking.modulemap */,
+				903443A6905DD0DDA485C6D210759085 /* AFNetworking.xcconfig */,
+				ADC82A1FB8AAA7EA996606A77915C5E8 /* AFNetworking-dummy.m */,
+				5AD13856B9DC0F813C29365D96712741 /* AFNetworking-prefix.pch */,
+				8533B3BC5B154D44AF46D14BB1569CB8 /* AFNetworking-umbrella.h */,
+				6A85FC5FBC848406BC43DFCD3B64059C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		730CDD5C1B85F0EAB7531D8E4C70805A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA8F466DC4DC46543426B3E192F5D58E /* HTMIDownloadManager.modulemap */,
+				7463B7C6717E612994A7FF18C6616F93 /* HTMIDownloadManager.xcconfig */,
+				99F8B700D5B1C19420C79287B6B14950 /* HTMIDownloadManager-dummy.m */,
+				72C2FEC346A9EA89D4C4395FE1DE34B3 /* HTMIDownloadManager-prefix.pch */,
+				EFD9824F535994CF9E34AF54F9554E69 /* HTMIDownloadManager-umbrella.h */,
+				83A25198CCCC83B6193120AA2651D753 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HTMIDownloadManager";
+			sourceTree = "<group>";
+		};
+		76596F85F2568497C6B2FCB376572034 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				49F504742AE97D358A659A6DBBF98840 /* CoreGraphics.framework */,
+				9BF88E0DD448F3BD259DD45C1CA6BC1D /* Foundation.framework */,
+				EEE4D54EB7DD953374EA296E17A9E0C6 /* MapKit.framework */,
+				27D5E708D068317BF926FBA6A686FDC1 /* MobileCoreServices.framework */,
+				661E8311E2FBE4DCDD733708612ED296 /* Security.framework */,
+				3AA1052525D0734D21E0408D8D2F46BB /* SystemConfiguration.framework */,
+				DD2846247330B4AA8128BFF428043252 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		780B0E799FBAF8CC16DE1197759ECB15 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A901ABC483E8BADBC11D6EF248E617C6 /* HTMIDownloadManager.podspec */,
+				C1EF011401BC3BFE059C4F1EA289575A /* LICENSE */,
+				07B8E0227EEB550E2F11CBB0318C6E7C /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FE1B286611FDAF01DA8EE594B9D0AB70 /* Development Pods */,
-				F6DEF2D45BB72943C9E424D8F20DB9CD /* Frameworks */,
-				641BDD347DE7B8BB81D6CA5727C6EC5A /* Pods */,
-				4E14AEFE039A6F01713EDE2FB7BAB596 /* Products */,
-				BB0147BF8B550F5BFCBBCCB2EEE64CB4 /* Targets Support Files */,
+				329035F535CDA0972498B876EC214CFE /* Development Pods */,
+				3A215DEC1619D7E5AE530FEFA3D64860 /* Frameworks */,
+				B369943A8565FD48611B220EF261CCCB /* Pods */,
+				29E945779A369367C71A02B34B771EE9 /* Products */,
+				B1341C83E5393FD5825C0F57897FF3FF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		81E766A26DB02139024ADE7C61BF191A /* Reachability */ = {
+		8AA4151EF49B51A6945A24CCE3F2D7EF /* MD5 */ = {
 			isa = PBXGroup;
 			children = (
-				456884974FCD65674016A0D296E8D846 /* AFNetworkReachabilityManager.h */,
-				86F42B01C0184F7993752BA21574CFB4 /* AFNetworkReachabilityManager.m */,
+			);
+			name = MD5;
+			sourceTree = "<group>";
+		};
+		934E9C0D92D543CF8DEBF93E07FACCF1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				359DCE0674734EDF694970C7E86BF602 /* HTMINetWork.modulemap */,
+				40FEB4BFEB100C52B47C6849ACC6B236 /* HTMINetWork.xcconfig */,
+				B58D5C5B228B7B8446CB4E5267B2E22B /* HTMINetWork-dummy.m */,
+				4FFFCD05EC18C4A49ACAEE772A3526E7 /* HTMINetWork-prefix.pch */,
+				EB30E67A1A2812F5E29DDC2D656B5699 /* HTMINetWork-umbrella.h */,
+				BF80DFD89DD62B969AEA44F8791B4B9E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HTMINetWork";
+			sourceTree = "<group>";
+		};
+		AA3974226F39422ACFD2A04483967039 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7984017D9CBB46B394BF6D335E547E68 /* AFNetworking.h */,
+				3360A1393EB5AB199ED9F4647E129EBF /* NSURLSession */,
+				B7B93EA64637D322B0705BFB627CF21E /* Reachability */,
+				AD22BD76826B11A04E7B36737BE8B52C /* Security */,
+				12F9BBD7642C23F6416960BBB5737131 /* Serialization */,
+				4192E2E047431598AD91F778D42E20CB /* Support Files */,
+				FC874C784DFE36068B4B20EB00E545A7 /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		AD22BD76826B11A04E7B36737BE8B52C /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				721F5C6DBF733DAF1DD87A045267F78A /* AFSecurityPolicy.h */,
+				740662D6503C58F6945E85C53FEE4F93 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		B1341C83E5393FD5825C0F57897FF3FF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E65462F2BA8B8349829A095E6F8DFBB0 /* Pods-HTMIDownloadManager_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B369943A8565FD48611B220EF261CCCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA3974226F39422ACFD2A04483967039 /* AFNetworking */,
+				112A529C458652AA1086E6C84213605F /* HTMINetWork */,
+				28D5B99F5D98C8BB44DBC3FB4B1D8ED9 /* HTMISettingManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7B93EA64637D322B0705BFB627CF21E /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				9C204437E769DB72AC28A7EA966E5465 /* AFNetworkReachabilityManager.h */,
+				F1B5FA6E9B32762D3826A26CBA332CE4 /* AFNetworkReachabilityManager.m */,
 			);
 			name = Reachability;
 			sourceTree = "<group>";
 		};
-		8DD046F7FCE6E3DDF168C9AD96C59FED /* AFNetworking */ = {
+		E65462F2BA8B8349829A095E6F8DFBB0 /* Pods-HTMIDownloadManager_Example */ = {
 			isa = PBXGroup;
 			children = (
-				AB4088CDD2F5D16F78CD6D995025592E /* AFNetworking.h */,
-				D58A48C41A86385AEF5ADE9A1A318963 /* NSURLSession */,
-				81E766A26DB02139024ADE7C61BF191A /* Reachability */,
-				6821ED4ACF6E241AABCC047501B9B275 /* Security */,
-				6C5EF6B89BEBD4B73AEDAF254F45564F /* Serialization */,
-				C45D249FB5DB8E034FDE4F14853D1D8B /* Support Files */,
-				C015C5E223184310A507F6F6D795AB1F /* UIKit */,
-			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		8EC7D62244602536F0905F4C34F747B3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				64EA6D85690B6B0200895F6CCE1F98E6 /* HTMIDownloadManager.modulemap */,
-				1ACF7DC45A4CA6A07203FB6A4832AE20 /* HTMIDownloadManager.xcconfig */,
-				C68F93677E0AB8CC04B7D5594FA4FA1E /* HTMIDownloadManager-dummy.m */,
-				10052D02BA339BB59B43D8C3EDBB9423 /* HTMIDownloadManager-prefix.pch */,
-				3E6E34D9E229012F1892DB2A20AE1DBC /* HTMIDownloadManager-umbrella.h */,
-				A67BADF3B6B6809204F81AD1693577F2 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HTMIDownloadManager";
-			sourceTree = "<group>";
-		};
-		A118CB02E72E145125B7F9A88E25D0D6 /* HTMIDownloadManager */ = {
-			isa = PBXGroup;
-			children = (
-				6786211FB3048013A5114724C2708281 /* HTMIDownloadManager.h */,
-				A6A9A2F3CA0F9CEE9059BCC6467A6D2F /* HTMIDownloadManager.m */,
-				B1892A6991F3D847C31FDA8D76315525 /* HTMIDownloadSessionManager.h */,
-				0B820E59D084B477363B6E53EF719472 /* HTMIDownloadSessionManager.m */,
-				21FB52917D6BADAF2690FE0433E61366 /* NSString+Hash.h */,
-				87F2D51A2A38586F4AD81C1698DCE237 /* NSString+Hash.m */,
-				8EC7D62244602536F0905F4C34F747B3 /* Support Files */,
-			);
-			name = HTMIDownloadManager;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		A625690352CC6857C8E0F633392D6823 /* Pods-HTMIDownloadManager_Example */ = {
-			isa = PBXGroup;
-			children = (
-				5DF61A14711D22822C937C4D84E5A200 /* Info.plist */,
-				7A7D486B4CB2E4037153A5847F45EAA0 /* Pods-HTMIDownloadManager_Example.modulemap */,
-				2197B6D8796AA07D74AEFEC37B2EB69B /* Pods-HTMIDownloadManager_Example-acknowledgements.markdown */,
-				6FBE89B620A9DBCB4092AC821880D679 /* Pods-HTMIDownloadManager_Example-acknowledgements.plist */,
-				B6C5486E22FBDE2E1505C48ADD7F96CA /* Pods-HTMIDownloadManager_Example-dummy.m */,
-				F0A9E496ED9992F5DD5CE1DCC2BBFE76 /* Pods-HTMIDownloadManager_Example-frameworks.sh */,
-				F02087B50847A2722822AC217941C8EE /* Pods-HTMIDownloadManager_Example-resources.sh */,
-				685ED126381F2B437D69DAC1F2681740 /* Pods-HTMIDownloadManager_Example-umbrella.h */,
-				6AF8086494FE7A305D9AA3F3E26EF057 /* Pods-HTMIDownloadManager_Example.debug.xcconfig */,
-				9F3969FE5FB66BB4B77E31F5DC2B4C7E /* Pods-HTMIDownloadManager_Example.release.xcconfig */,
+				9CC6F225FCD775095448DAE969BEF352 /* Info.plist */,
+				FF2DE2DAC5D461208D7A73EFF69F8DD5 /* Pods-HTMIDownloadManager_Example.modulemap */,
+				0D52F29CE918382BED1841833104D9A1 /* Pods-HTMIDownloadManager_Example-acknowledgements.markdown */,
+				77EE63CC574E6EC835C920C4BF7960DA /* Pods-HTMIDownloadManager_Example-acknowledgements.plist */,
+				8A58787D0C0A99747570523BE7352DB1 /* Pods-HTMIDownloadManager_Example-dummy.m */,
+				E0937943800C51A80210472F2E9A004D /* Pods-HTMIDownloadManager_Example-frameworks.sh */,
+				A4D28303A1529E7F7BB464C10E4301F0 /* Pods-HTMIDownloadManager_Example-resources.sh */,
+				7A63409FA3A6B9DB7ADDE27E81C48E61 /* Pods-HTMIDownloadManager_Example-umbrella.h */,
+				62453D6E3BB0BFB4F1403DE3E718A34E /* Pods-HTMIDownloadManager_Example.debug.xcconfig */,
+				3BDD04F4618344A6501BEC80C97099F5 /* Pods-HTMIDownloadManager_Example.release.xcconfig */,
 			);
 			name = "Pods-HTMIDownloadManager_Example";
 			path = "Target Support Files/Pods-HTMIDownloadManager_Example";
 			sourceTree = "<group>";
 		};
-		BB0147BF8B550F5BFCBBCCB2EEE64CB4 /* Targets Support Files */ = {
+		F1184EC499B9EF84DE50254D775BDA3F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A625690352CC6857C8E0F633392D6823 /* Pods-HTMIDownloadManager_Example */,
-				42A99E9A7435A54EDE043B51244E8A0A /* Pods-HTMIDownloadManager_Tests */,
+				0D3B905FBC1763FB559BE227EB9101D3 /* HTMISettingManager.modulemap */,
+				8B2357D8EBC72C6E54E32281FC6AD655 /* HTMISettingManager.xcconfig */,
+				1CEC713527ACDB9411A3E3675BAAF0A3 /* HTMISettingManager-dummy.m */,
+				7312DE628B507F81705CBC93B0FAC6C2 /* HTMISettingManager-prefix.pch */,
+				E6ECE72E3F340D1D00D5FF54F7ABF0E2 /* HTMISettingManager-umbrella.h */,
+				34714B53776EB3F0F270DF1B1555160D /* Info.plist */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "../Target Support Files/HTMISettingManager";
 			sourceTree = "<group>";
 		};
-		C015C5E223184310A507F6F6D795AB1F /* UIKit */ = {
+		FC874C784DFE36068B4B20EB00E545A7 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				FDD03D0BE06A3B18AD76D92D8234FBBB /* AFAutoPurgingImageCache.h */,
-				BAEEB3CDE859F3F412940D15AA031037 /* AFAutoPurgingImageCache.m */,
-				E06C4D570ABCF18D8095B9111D3D3F98 /* AFImageDownloader.h */,
-				3BC24D481320415EB9DB59C7033DAC26 /* AFImageDownloader.m */,
-				3C71DB2632AE2E107C12837E932A8E08 /* AFNetworkActivityIndicatorManager.h */,
-				69DAA8D29D605736A0994260EEE74150 /* AFNetworkActivityIndicatorManager.m */,
-				077A1959F6F952532F523B4F8E9B751D /* UIActivityIndicatorView+AFNetworking.h */,
-				E6E0C171634A123A0E7FC39F44FA05D2 /* UIActivityIndicatorView+AFNetworking.m */,
-				A39107EEA293C692022DBFA34617CFB0 /* UIButton+AFNetworking.h */,
-				907EBD05C24D3EC8D81F3A5FEE84121C /* UIButton+AFNetworking.m */,
-				0AA1B9153633729F35C67949C7006B7A /* UIImage+AFNetworking.h */,
-				B775F2CB1A9FB265DAF8C6F05776A69E /* UIImageView+AFNetworking.h */,
-				E287540F6AAFBD6834BFA37866AE26DA /* UIImageView+AFNetworking.m */,
-				87463A8F055EEE85DD10593D0C8721B2 /* UIKit+AFNetworking.h */,
-				F05638D4877C1C9F1AAC3E348D5C7D70 /* UIProgressView+AFNetworking.h */,
-				85053C33AB5B93D2852851105AAA32B1 /* UIProgressView+AFNetworking.m */,
-				996D38C17E48CD16703CD9A31F9F6EC7 /* UIRefreshControl+AFNetworking.h */,
-				4DDDAFE16F1C06EFAE434D84600766A8 /* UIRefreshControl+AFNetworking.m */,
-				60FDE8718B3C2608D30D734C8A15D3D3 /* UIWebView+AFNetworking.h */,
-				766A8DB58B1DEC0150E36AD843786FF3 /* UIWebView+AFNetworking.m */,
+				0CCC00FFAE1D4D3DA3FC6E1A0A2BB7BB /* AFAutoPurgingImageCache.h */,
+				90A67DF785D9D4434004A13545DEFC8D /* AFAutoPurgingImageCache.m */,
+				0A68D4800C1B47112B73C476D2C33DCC /* AFImageDownloader.h */,
+				42F40C487DF5456BC7FEFEF3387EED1D /* AFImageDownloader.m */,
+				59E264AB6B8C182B00BFAAAC250DC8FC /* AFNetworkActivityIndicatorManager.h */,
+				0E9D1127850CE58C9B183F78732D393E /* AFNetworkActivityIndicatorManager.m */,
+				8053E42415EF6C438B24874B63DB5E6A /* UIActivityIndicatorView+AFNetworking.h */,
+				B7B52F9E954C04F2E86E658D73AF6467 /* UIActivityIndicatorView+AFNetworking.m */,
+				C4E73EB040129704A0468BC94BA23B18 /* UIButton+AFNetworking.h */,
+				E288FF25C92169D790744C4942E87E1F /* UIButton+AFNetworking.m */,
+				8646FD75BF21967395FA8DC31603AD20 /* UIImage+AFNetworking.h */,
+				1851598F7D649663DE13FAFC43C56924 /* UIImageView+AFNetworking.h */,
+				4FBB9DE81BCFFDACBAA261BBDE1FCC86 /* UIImageView+AFNetworking.m */,
+				3170A2FD811A33D065425D608C2FCE26 /* UIKit+AFNetworking.h */,
+				1BF090C55E75C3369A597D4F3282F07B /* UIProgressView+AFNetworking.h */,
+				05BCEC154D3FA81232C628C9CE4248C8 /* UIProgressView+AFNetworking.m */,
+				72331BE0506F3DD494A77FEBDA1390E0 /* UIRefreshControl+AFNetworking.h */,
+				A96A04D01576A5A2671C790894810D00 /* UIRefreshControl+AFNetworking.m */,
+				FC6C457DC0D07B4281FDB595C4B15B38 /* UIWebView+AFNetworking.h */,
+				46244092DC2AEEB9BEED7EC7C25F7DFB /* UIWebView+AFNetworking.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
 		};
-		C45D249FB5DB8E034FDE4F14853D1D8B /* Support Files */ = {
+		FE87B561DDA1347D36ED4D2F73D1C387 /* HTMIDownloadManager */ = {
 			isa = PBXGroup;
 			children = (
-				7FEBEAD524FBA9CB3333D35635D65A03 /* AFNetworking.modulemap */,
-				F7617E4141049E867B695D99457B2D51 /* AFNetworking.xcconfig */,
-				98A189FDEF0AD08BC5DC357020B8DB5A /* AFNetworking-dummy.m */,
-				B00ABE2539A23D5CD12E8B3547F05E07 /* AFNetworking-prefix.pch */,
-				E363399C8F7BCAD4FC7BD1CDBF97CD10 /* AFNetworking-umbrella.h */,
-				B5FB2BC83B1CAF09DA68C6C64F67D8C9 /* Info.plist */,
+				B5C7B44AF40A48A0CB29CCDCC0F58757 /* HTMIDownloadManager.h */,
+				F1E3231A9DAA955B089319D0C5482F10 /* HTMIDownloadManager.m */,
+				52441C9DA7DF3B8A9ED16EF5B6441461 /* HTMIDownloadSessionManager.h */,
+				4A7DF275A4B90C4124C2839BDE2AE8B5 /* HTMIDownloadSessionManager.m */,
+				F1A8166C3C3EF56B82A74B4F05E7D607 /* NSString+Hash.h */,
+				FC8D171D3B9E68D3ADBF6FD62FA1FC0E /* NSString+Hash.m */,
+				8AA4151EF49B51A6945A24CCE3F2D7EF /* MD5 */,
+				780B0E799FBAF8CC16DE1197759ECB15 /* Pod */,
+				730CDD5C1B85F0EAB7531D8E4C70805A /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
-			sourceTree = "<group>";
-		};
-		D58A48C41A86385AEF5ADE9A1A318963 /* NSURLSession */ = {
-			isa = PBXGroup;
-			children = (
-				EB9F5DA3051DAC003422E54B3B4A6E9D /* AFHTTPSessionManager.h */,
-				73950156966D6FB93DC14CBF7F3326A6 /* AFHTTPSessionManager.m */,
-				434E574D60CF3205EB86C49EB8453D2E /* AFURLSessionManager.h */,
-				9B5EF98E2B153C6459F4BC74A2940581 /* AFURLSessionManager.m */,
-			);
-			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		EA9B06459C88C0FB5CF1000E8465759B /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				B9FA3A002A9B907B9A247654555AE61B /* CoreGraphics.framework */,
-				D845BA077FC0B7DF61F37B225F4303E0 /* Foundation.framework */,
-				F1E635AE637CD000A39F8F181F63B839 /* MapKit.framework */,
-				FE2B0E5A9ADDBCEF3E5EE54C9E950F28 /* MobileCoreServices.framework */,
-				ABB330640FFAFDCD37E5CA38ABBBA635 /* Security.framework */,
-				ABFEA74D2A58215414ED49CE13092761 /* SystemConfiguration.framework */,
-				FC298BD92CD030129FBD53A74C86A033 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F6DEF2D45BB72943C9E424D8F20DB9CD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1C50DFA32EF114444A5E8C6855F749B5 /* AFNetworking.framework */,
-				EA9B06459C88C0FB5CF1000E8465759B /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FE1B286611FDAF01DA8EE594B9D0AB70 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A118CB02E72E145125B7F9A88E25D0D6 /* HTMIDownloadManager */,
-			);
-			name = "Development Pods";
+			name = HTMIDownloadManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		605D12CC88C5CA6488038741AF7600E1 /* Headers */ = {
+		29FF9D2279442D72416073DB8D16D378 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F75FC1B4693694094EA66BA5A53EE24 /* Pods-HTMIDownloadManager_Example-umbrella.h in Headers */,
+				7AF27CDE824D401A4AB8AF5CD54932D0 /* HTMIDownloadManager-umbrella.h in Headers */,
+				A67E92344E2581DEEBA0589ED368FE1A /* HTMIDownloadManager.h in Headers */,
+				FFF85523DF34F543FC984FB2F9F7D636 /* HTMIDownloadSessionManager.h in Headers */,
+				4B02B3E1EC2944113A81D728B676B59C /* NSString+Hash.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88F6EA3C77E702D6204B0A2D962C8EA3 /* Headers */ = {
+		477E43B0A316B91A5E737096FFCB348D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA3FB51035D9749B08CBDB272B5D7962 /* HTMIDownloadManager-umbrella.h in Headers */,
-				E5D24C90729BE8892E9367EC47BD5C0E /* HTMIDownloadManager.h in Headers */,
-				2A41DD9150F4CBEB96B84FE660871753 /* HTMIDownloadSessionManager.h in Headers */,
-				0269646D65DFA341953B3A49108746B6 /* NSString+Hash.h in Headers */,
+				6E169198A42D169C1EB8136707C429E7 /* HTMIAccessTokenApi.h in Headers */,
+				2A6871680637B2B6D25DF3BA9A5170F2 /* HTMIBaseRequest.h in Headers */,
+				964C2CDB99665CD049ED9025A498BEA9 /* HTMICache.h in Headers */,
+				3F56A9C3AABB7F52D7F3C1BB2333F7F8 /* HTMICacheObject.h in Headers */,
+				44D241EF176FC07E4B785C61339B0688 /* HTMIHttpsRequestProxy.h in Headers */,
+				2A96F2A56303B55CCF719CC3B6EB7728 /* HTMILogFunctionFinishApi.h in Headers */,
+				B2E85ED9A9AC376611C32A3B66A2A9AD /* HTMILogFunctionStartApi.h in Headers */,
+				3B6E7F67593FE421791999925DB2F1B2 /* HTMINetWork-umbrella.h in Headers */,
+				FD1646F31D88BECD258F70D494D2F897 /* HTMINetworkConfiguration.h in Headers */,
+				B2712C6E8FAE91FA324B5725AF9357B0 /* HTMINormalRequestProxy.h in Headers */,
+				290C8309E5606717AC7B522F46D4C9DD /* HTMIRequestProxy.h in Headers */,
+				34AF4E3632A6EE75B34922F4CB16CA67 /* HTMIResponse.h in Headers */,
+				BC79752930FEA0FF7E309FC03B70A6A5 /* NSArray+HTMINetworkParams.h in Headers */,
+				2C0680D8961F941E88604CEE1F4D9BBE /* NSDictionary+HTMINetworkParams.h in Headers */,
+				9BB0C45FAB3D55217E74471A40D0DA9E /* NSString+HTMINetworkMatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37337AED313074B6A620F2BE3867443 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A471D38139F8E5F55D4E83F7B537602 /* Pods-HTMIDownloadManager_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,69 +735,94 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB6A77889E9ADDD1690F0B039FEE7DAF /* Headers */ = {
+		DD8076FD25FF4EABEDC4A14EECCAEDF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A384D61E3DDD3B174B839B989B889BC6 /* Pods-HTMIDownloadManager_Tests-umbrella.h in Headers */,
+				949E16EC25BAE9D098194F02E6A44DEA /* HTMISettingManager-umbrella.h in Headers */,
+				D22C2EE100D582F57C2EBCE9A4740E32 /* HTMISettingManager.h in Headers */,
+				97CBC469996C2228B885D7F189779921 /* HTMIUserdefaultHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		059D5D2D88FD802C7F5B4B9C0A01706B /* Pods-HTMIDownloadManager_Tests */ = {
+		48DD891FE393045E003A5209AE583429 /* Pods-HTMIDownloadManager_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF661314418B341EE234DD106D453B3F /* Build configuration list for PBXNativeTarget "Pods-HTMIDownloadManager_Tests" */;
+			buildConfigurationList = 32393F782E158969D1EA18BACF318256 /* Build configuration list for PBXNativeTarget "Pods-HTMIDownloadManager_Example" */;
 			buildPhases = (
-				00E86BDA8B4C74B20FF164B470F5DABF /* Sources */,
-				5B175C86979A88B9526B521E68D318C7 /* Frameworks */,
-				DB6A77889E9ADDD1690F0B039FEE7DAF /* Headers */,
+				F3E432B91E5D9EC86D2BAB585C4FE324 /* Sources */,
+				255098CC47A6821C75C0AFBB16B3D64D /* Frameworks */,
+				A37337AED313074B6A620F2BE3867443 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-HTMIDownloadManager_Tests";
-			productName = "Pods-HTMIDownloadManager_Tests";
-			productReference = B5B861769ED5255C1F64B28BE978271E /* Pods_HTMIDownloadManager_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		12A69D8E8DA9083E7ECCE63154B0AA6B /* HTMIDownloadManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4AA181B678CE33757910818DBEF009E7 /* Build configuration list for PBXNativeTarget "HTMIDownloadManager" */;
-			buildPhases = (
-				1A910547CD56CC435890593D18BE4A71 /* Sources */,
-				EFE98B57F0C97510E0D0C37E433E91A1 /* Frameworks */,
-				88F6EA3C77E702D6204B0A2D962C8EA3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				656E19CB547B67620FB1EB198DFB36E6 /* PBXTargetDependency */,
-			);
-			name = HTMIDownloadManager;
-			productName = HTMIDownloadManager;
-			productReference = A6D8835361318F433CE0B376E7D9E7E9 /* HTMIDownloadManager.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7AD3E02900B2822AC3A641A7763FADDA /* Pods-HTMIDownloadManager_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB89BC7AAA30073B1111AF173615C061 /* Build configuration list for PBXNativeTarget "Pods-HTMIDownloadManager_Example" */;
-			buildPhases = (
-				92700D77EF3BEF2D1129C92A22CAF369 /* Sources */,
-				EA66DF2D32C3F0FE52A30A11CEA8F4DE /* Frameworks */,
-				605D12CC88C5CA6488038741AF7600E1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F1DD78CBAA5753227606C771E62A27CB /* PBXTargetDependency */,
-				0BACBD237F290D84E4389CB26BBDB30F /* PBXTargetDependency */,
+				4F92AB5C73FBB34D309DFB6B482FE183 /* PBXTargetDependency */,
+				25FA713F70CE8AD9424ED244345051BF /* PBXTargetDependency */,
+				CC482CF8000672A8D0E5405CBE309EF8 /* PBXTargetDependency */,
+				17AC6E01CC81AC9C220096C6B9985FFA /* PBXTargetDependency */,
 			);
 			name = "Pods-HTMIDownloadManager_Example";
 			productName = "Pods-HTMIDownloadManager_Example";
-			productReference = D74F6299BB2EA21F77E375D4FD40BC09 /* Pods_HTMIDownloadManager_Example.framework */;
+			productReference = 3A68BC0FFDAFD503888A816263ECEB3A /* Pods_HTMIDownloadManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75D2456FA922D17DDD6BB50EAF48E6A6 /* HTMIDownloadManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD59AE48328763A2D39B8DC033E5D6F1 /* Build configuration list for PBXNativeTarget "HTMIDownloadManager" */;
+			buildPhases = (
+				83A3741740D3E623C75166A744D8F30C /* Sources */,
+				387EBF5D9B6570329BB41763CDB1D222 /* Frameworks */,
+				29FF9D2279442D72416073DB8D16D378 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1973B4D35A25E328FDC7318C655EDD1 /* PBXTargetDependency */,
+				04100C518CF314337076C52B2BB85EA0 /* PBXTargetDependency */,
+				83B2546B1E21CDC9FD377315AAD9E2BD /* PBXTargetDependency */,
+			);
+			name = HTMIDownloadManager;
+			productName = HTMIDownloadManager;
+			productReference = 468105C74BF1BA49ECB11632A1FDC7B8 /* HTMIDownloadManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4AD26DD975175D1AA727F3C51283D74 /* HTMINetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1B897056320465FDCD2EF239262D24 /* Build configuration list for PBXNativeTarget "HTMINetWork" */;
+			buildPhases = (
+				4DF1E98BB33AE7A9F61C99344C7C6B3A /* Sources */,
+				9CEFFC13568AF5D30C31894E6DB774DA /* Frameworks */,
+				477E43B0A316B91A5E737096FFCB348D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353BC7591396E1DC03BA92D9E66AF117 /* PBXTargetDependency */,
+				1CFEEBE61E575B51361A27D700EB330C /* PBXTargetDependency */,
+			);
+			name = HTMINetWork;
+			productName = HTMINetWork;
+			productReference = AAD6C1A2FBEE09421EEAA18E8AFA9F9C /* HTMINetWork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA45B0A208FA6D8A72A8609AD33710E2 /* HTMISettingManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDFD0D41336B28CD45ADDB3BEE1537C /* Build configuration list for PBXNativeTarget "HTMISettingManager" */;
+			buildPhases = (
+				6C228183C3F2D975B49E2A482006B7EF /* Sources */,
+				A4779524A7D4CB1BBD5D804D9351AB2F /* Frameworks */,
+				DD8076FD25FF4EABEDC4A14EECCAEDF0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTMISettingManager;
+			productName = HTMISettingManager;
+			productReference = A002F745DA98CAAAA3B5AA1C2220E4C0 /* HTMISettingManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */ = {
@@ -579,7 +839,7 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = 4EF6156D6545688F90A202B52DED2090 /* AFNetworking.framework */;
+			productReference = A2F44978387FCD5C6EC3D5768FA8B906 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -588,8 +848,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -599,35 +859,37 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4E14AEFE039A6F01713EDE2FB7BAB596 /* Products */;
+			productRefGroup = 29E945779A369367C71A02B34B771EE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */,
-				12A69D8E8DA9083E7ECCE63154B0AA6B /* HTMIDownloadManager */,
-				7AD3E02900B2822AC3A641A7763FADDA /* Pods-HTMIDownloadManager_Example */,
-				059D5D2D88FD802C7F5B4B9C0A01706B /* Pods-HTMIDownloadManager_Tests */,
+				75D2456FA922D17DDD6BB50EAF48E6A6 /* HTMIDownloadManager */,
+				A4AD26DD975175D1AA727F3C51283D74 /* HTMINetWork */,
+				CA45B0A208FA6D8A72A8609AD33710E2 /* HTMISettingManager */,
+				48DD891FE393045E003A5209AE583429 /* Pods-HTMIDownloadManager_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00E86BDA8B4C74B20FF164B470F5DABF /* Sources */ = {
+		4DF1E98BB33AE7A9F61C99344C7C6B3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24C94C5F5FFBDCF30A6A4E8C2F35CE41 /* Pods-HTMIDownloadManager_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A910547CD56CC435890593D18BE4A71 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				97ACB14E1FEECECF5041060A8C288DE7 /* HTMIDownloadManager-dummy.m in Sources */,
-				24433C731FCE2A26397463E348E617AB /* HTMIDownloadManager.m in Sources */,
-				7A92DF8F709AC17557D98B6FEA553B7D /* HTMIDownloadSessionManager.m in Sources */,
-				1F7832B205CB5A7B9978C502002B4276 /* NSString+Hash.m in Sources */,
+				EA1EB9AD9C52A7F6713530C3C08894FB /* HTMIAccessTokenApi.m in Sources */,
+				15FDE5206E3285E7E080025F2588295C /* HTMIBaseRequest.m in Sources */,
+				DC326BA0358AC35E0DA22E79E969F29F /* HTMICache.m in Sources */,
+				3F6509321B4D47888916466B95B3C060 /* HTMICacheObject.m in Sources */,
+				161EEBD18B1C33523F7BC92C7A6C98BD /* HTMIHttpsRequestProxy.m in Sources */,
+				494A1864A2E87ACBFB8A140DCD1BB9F1 /* HTMILogFunctionFinishApi.m in Sources */,
+				7A6785146A429D80428B36DD5EE329FE /* HTMILogFunctionStartApi.m in Sources */,
+				7B614811243429B041A376E1853B4B21 /* HTMINetWork-dummy.m in Sources */,
+				A4D4CCA365ADD7A32946DBE4700AC4A7 /* HTMINormalRequestProxy.m in Sources */,
+				19E6DBC5592026D2BA0AAB78FF489AAC /* HTMIResponse.m in Sources */,
+				339C6D2924CA0651F42821DE5349F1A6 /* NSArray+HTMINetworkParams.m in Sources */,
+				EAF3ACD454F57C1E2BFDC377A8390A38 /* NSDictionary+HTMINetworkParams.m in Sources */,
+				69A8F47E61900F5F58191F07D4529F26 /* NSString+HTMINetworkMatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,41 +916,98 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92700D77EF3BEF2D1129C92A22CAF369 /* Sources */ = {
+		6C228183C3F2D975B49E2A482006B7EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D394572C5A729B1951541AF717BE959 /* Pods-HTMIDownloadManager_Example-dummy.m in Sources */,
+				16241C16A5D66015A087F542011AB925 /* HTMISettingManager-dummy.m in Sources */,
+				803C36C74114FEE719C36D726D75C9D9 /* HTMISettingManager.m in Sources */,
+				407B21679A1C75E2411C7E723A139BE8 /* HTMIUserdefaultHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A3741740D3E623C75166A744D8F30C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1746AC6307949186326797E91D035C0 /* HTMIDownloadManager-dummy.m in Sources */,
+				16B7AFD53C196AEEAA8985D828858EE3 /* HTMIDownloadManager.m in Sources */,
+				AB0BEE3B9223BF008FA41602126B6DD1 /* HTMIDownloadSessionManager.m in Sources */,
+				32BF328E6BEDD3634D2B5742209BAF37 /* NSString+Hash.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E432B91E5D9EC86D2BAB585C4FE324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9B49DF1B82D70C143AE6F332F7BA4A /* Pods-HTMIDownloadManager_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0BACBD237F290D84E4389CB26BBDB30F /* PBXTargetDependency */ = {
+		04100C518CF314337076C52B2BB85EA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTMINetWork;
+			target = A4AD26DD975175D1AA727F3C51283D74 /* HTMINetWork */;
+			targetProxy = EE3423A5AA35FB2461A830959F1D6891 /* PBXContainerItemProxy */;
+		};
+		17AC6E01CC81AC9C220096C6B9985FFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTMISettingManager;
+			target = CA45B0A208FA6D8A72A8609AD33710E2 /* HTMISettingManager */;
+			targetProxy = 4A8A7D1FF0BD6C1519619E4FCF7079BB /* PBXContainerItemProxy */;
+		};
+		1CFEEBE61E575B51361A27D700EB330C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTMISettingManager;
+			target = CA45B0A208FA6D8A72A8609AD33710E2 /* HTMISettingManager */;
+			targetProxy = B90A7B792432AB03D65658FDC2B7C674 /* PBXContainerItemProxy */;
+		};
+		25FA713F70CE8AD9424ED244345051BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HTMIDownloadManager;
-			target = 12A69D8E8DA9083E7ECCE63154B0AA6B /* HTMIDownloadManager */;
-			targetProxy = D654E99364CD51C2CA9C88F1F7502EAA /* PBXContainerItemProxy */;
+			target = 75D2456FA922D17DDD6BB50EAF48E6A6 /* HTMIDownloadManager */;
+			targetProxy = A6BA92AA14F09060BCDE1548DBE029F7 /* PBXContainerItemProxy */;
 		};
-		656E19CB547B67620FB1EB198DFB36E6 /* PBXTargetDependency */ = {
+		353BC7591396E1DC03BA92D9E66AF117 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */;
-			targetProxy = 332B3529D62D82F024CED2A36D4AC37D /* PBXContainerItemProxy */;
+			targetProxy = F309F84AED5B1304E9A477BF968BBD95 /* PBXContainerItemProxy */;
 		};
-		F1DD78CBAA5753227606C771E62A27CB /* PBXTargetDependency */ = {
+		4F92AB5C73FBB34D309DFB6B482FE183 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */;
-			targetProxy = 6E52D28B2D40DA5CE67D406E75CA4F6D /* PBXContainerItemProxy */;
+			targetProxy = 5C8D13E94BE107815275CA39BD8EC998 /* PBXContainerItemProxy */;
+		};
+		83B2546B1E21CDC9FD377315AAD9E2BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTMISettingManager;
+			target = CA45B0A208FA6D8A72A8609AD33710E2 /* HTMISettingManager */;
+			targetProxy = 1E87315F72B5A9FD6A76B2A7D8162772 /* PBXContainerItemProxy */;
+		};
+		CC482CF8000672A8D0E5405CBE309EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTMINetWork;
+			target = A4AD26DD975175D1AA727F3C51283D74 /* HTMINetWork */;
+			targetProxy = D7BBDF078CC16D882FB74A700D7BB2EF /* PBXContainerItemProxy */;
+		};
+		D1973B4D35A25E328FDC7318C655EDD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */;
+			targetProxy = E00B8FFDAE80B92387E299C4EE9BF6B8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A2CB04235132FF7136AFE4AE7085DB5 /* Debug */ = {
+		0FCB5913DE97E1E84F4F15019733D635 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7617E4141049E867B695D99457B2D51 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 7463B7C6717E612994A7FF18C6616F93 /* HTMIDownloadManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -699,42 +1018,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HTMIDownloadManager/HTMIDownloadManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTMIDownloadManager/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
-				PRODUCT_NAME = AFNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1C567E1A032B9BFD3203029F1164D3E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7617E4141049E867B695D99457B2D51 /* AFNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
-				PRODUCT_NAME = AFNetworking;
+				MODULEMAP_FILE = "Target Support Files/HTMIDownloadManager/HTMIDownloadManager.modulemap";
+				PRODUCT_MODULE_NAME = HTMIDownloadManager;
+				PRODUCT_NAME = HTMIDownloadManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -745,7 +1036,165 @@
 			};
 			name = Release;
 		};
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		10DC2B315AA807952FAAEA3BB21CB502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40FEB4BFEB100C52B47C6849ACC6B236 /* HTMINetWork.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTMINetWork/HTMINetWork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTMINetWork/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTMINetWork/HTMINetWork.modulemap";
+				PRODUCT_MODULE_NAME = HTMINetWork;
+				PRODUCT_NAME = HTMINetWork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		136A8DA72091F160A00C44FE157A5F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62453D6E3BB0BFB4F1403DE3E718A34E /* Pods-HTMIDownloadManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HTMIDownloadManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTMIDownloadManager_Example/Pods-HTMIDownloadManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		368FFD4CAB72416F3C763F5EE8FA685A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2357D8EBC72C6E54E32281FC6AD655 /* HTMISettingManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTMISettingManager/HTMISettingManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTMISettingManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTMISettingManager/HTMISettingManager.modulemap";
+				PRODUCT_MODULE_NAME = HTMISettingManager;
+				PRODUCT_NAME = HTMISettingManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		643EC4FEF706E249DB50DE47370D36A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BDD04F4618344A6501BEC80C97099F5 /* Pods-HTMIDownloadManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HTMIDownloadManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTMIDownloadManager_Example/Pods-HTMIDownloadManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E9B0EE618766D8B70B8492DBE466A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40FEB4BFEB100C52B47C6849ACC6B236 /* HTMINetWork.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTMINetWork/HTMINetWork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTMINetWork/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTMINetWork/HTMINetWork.modulemap";
+				PRODUCT_MODULE_NAME = HTMINetWork;
+				PRODUCT_NAME = HTMINetWork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -755,10 +1204,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -766,6 +1217,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -774,6 +1226,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -798,16 +1251,15 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		69AE3F2D64D15E809F2757598234EE68 /* Release */ = {
+		902457343663180F3AD23172ED9358F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1ACF7DC45A4CA6A07203FB6A4832AE20 /* HTMIDownloadManager.xcconfig */;
+			baseConfigurationReference = 7463B7C6717E612994A7FF18C6616F93 /* HTMIDownloadManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -824,18 +1276,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HTMIDownloadManager/HTMIDownloadManager.modulemap";
+				PRODUCT_MODULE_NAME = HTMIDownloadManager;
 				PRODUCT_NAME = HTMIDownloadManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -845,10 +1297,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -856,6 +1310,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -864,6 +1319,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -884,15 +1340,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		909C1665E01EC639CE5ABEE60784694C /* Debug */ = {
+		B748AFD31436B429FC979FDB5F4F7D04 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1ACF7DC45A4CA6A07203FB6A4832AE20 /* HTMIDownloadManager.xcconfig */;
+			baseConfigurationReference = 8B2357D8EBC72C6E54E32281FC6AD655 /* HTMISettingManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -903,13 +1358,45 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HTMIDownloadManager/HTMIDownloadManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HTMIDownloadManager/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HTMISettingManager/HTMISettingManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTMISettingManager/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HTMIDownloadManager/HTMIDownloadManager.modulemap";
-				PRODUCT_NAME = HTMIDownloadManager;
+				MODULEMAP_FILE = "Target Support Files/HTMISettingManager/HTMISettingManager.modulemap";
+				PRODUCT_MODULE_NAME = HTMISettingManager;
+				PRODUCT_NAME = HTMISettingManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E55F33F8AB663E35174F84964A71BD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903443A6905DD0DDA485C6D210759085 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -919,9 +1406,9 @@
 			};
 			name = Debug;
 		};
-		C151DE966202889AF053F718CB7E21A3 /* Debug */ = {
+		F8C5D495DCE994EA0D4CE27454017EAA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C4538E8E793CA14B524ADE5B2CB35BE /* Pods-HTMIDownloadManager_Tests.debug.xcconfig */;
+			baseConfigurationReference = 903443A6905DD0DDA485C6D210759085 /* AFNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -932,116 +1419,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HTMIDownloadManager_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HTMIDownloadManager_Tests/Pods-HTMIDownloadManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HTMIDownloadManager_Tests;
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CBB2D2AA66BF2CCBBD3DBCA3F57622D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E67D863115161F5CC012D5384D7D20CA /* Pods-HTMIDownloadManager_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HTMIDownloadManager_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HTMIDownloadManager_Tests/Pods-HTMIDownloadManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HTMIDownloadManager_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D149693B58BDEE7E4293FBEB296BFAF8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AF8086494FE7A305D9AA3F3E26EF057 /* Pods-HTMIDownloadManager_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HTMIDownloadManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HTMIDownloadManager_Example/Pods-HTMIDownloadManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HTMIDownloadManager_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FFE45AD935572A0D0F25E57D56706DD7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F3969FE5FB66BB4B77E31F5DC2B4C7E /* Pods-HTMIDownloadManager_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HTMIDownloadManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HTMIDownloadManager_Example/Pods-HTMIDownloadManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HTMIDownloadManager_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1052,11 +1440,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1F1B897056320465FDCD2EF239262D24 /* Build configuration list for PBXNativeTarget "HTMINetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10DC2B315AA807952FAAEA3BB21CB502 /* Debug */,
+				7E9B0EE618766D8B70B8492DBE466A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1064,35 +1461,35 @@
 		31E01BC98C827BD8A78F94173CDCC418 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A2CB04235132FF7136AFE4AE7085DB5 /* Debug */,
-				1C567E1A032B9BFD3203029F1164D3E8 /* Release */,
+				E55F33F8AB663E35174F84964A71BD87 /* Debug */,
+				F8C5D495DCE994EA0D4CE27454017EAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AA181B678CE33757910818DBEF009E7 /* Build configuration list for PBXNativeTarget "HTMIDownloadManager" */ = {
+		32393F782E158969D1EA18BACF318256 /* Build configuration list for PBXNativeTarget "Pods-HTMIDownloadManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				909C1665E01EC639CE5ABEE60784694C /* Debug */,
-				69AE3F2D64D15E809F2757598234EE68 /* Release */,
+				136A8DA72091F160A00C44FE157A5F69 /* Debug */,
+				643EC4FEF706E249DB50DE47370D36A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB89BC7AAA30073B1111AF173615C061 /* Build configuration list for PBXNativeTarget "Pods-HTMIDownloadManager_Example" */ = {
+		4DDFD0D41336B28CD45ADDB3BEE1537C /* Build configuration list for PBXNativeTarget "HTMISettingManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D149693B58BDEE7E4293FBEB296BFAF8 /* Debug */,
-				FFE45AD935572A0D0F25E57D56706DD7 /* Release */,
+				368FFD4CAB72416F3C763F5EE8FA685A /* Debug */,
+				B748AFD31436B429FC979FDB5F4F7D04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF661314418B341EE234DD106D453B3F /* Build configuration list for PBXNativeTarget "Pods-HTMIDownloadManager_Tests" */ = {
+		AD59AE48328763A2D39B8DC033E5D6F1 /* Build configuration list for PBXNativeTarget "HTMIDownloadManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C151DE966202889AF053F718CB7E21A3 /* Debug */,
-				CBB2D2AA66BF2CCBBD3DBCA3F57622D2 /* Release */,
+				902457343663180F3AD23172ED9358F2 /* Debug */,
+				0FCB5913DE97E1E84F4F15019733D635 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

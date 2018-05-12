@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "HTMISettingManager.h"
+#import "HTMIUserdefaultHelper.h"
 
-FOUNDATION_EXPORT double Pods_HTMIDownloadManager_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_HTMIDownloadManager_TestsVersionString[];
+FOUNDATION_EXPORT double HTMISettingManagerVersionNumber;
+FOUNDATION_EXPORT const unsigned char HTMISettingManagerVersionString[];
 

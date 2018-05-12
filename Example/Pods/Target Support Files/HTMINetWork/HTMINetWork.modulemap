@@ -1,0 +1,6 @@
+framework module HTMINetWork {
+  umbrella header "HTMINetWork-umbrella.h"
+
+  export *
+  module * { export * }
+}
